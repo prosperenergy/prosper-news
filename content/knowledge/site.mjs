@@ -34,7 +34,9 @@ document.querySelectorAll('[data-video]').forEach(button=>button.addEventListene
   if(!/^[A-Za-z0-9_-]{11}$/.test(id))return;
   const frame=document.createElement('iframe');
   frame.title='Prosper explainer: Get storage before it’s too late';
-  frame.src=`https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0&playsinline=1&enablejsapi=1&origin=${encodeURIComponent(location.origin)}`;
+  const start=Number(button.dataset.videoStart),end=Number(button.dataset.videoEnd);
+  const clip=Number.isFinite(start)?`&start=${Math.max(0,Math.round(start))}${Number.isFinite(end)?`&end=${Math.max(Math.round(start)+1,Math.round(end))}`:''}`:'';
+  frame.src=`https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0&playsinline=1&enablejsapi=1&origin=${encodeURIComponent(location.origin)}${clip}`;
   frame.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
   frame.allowFullscreen=true;
   frame.referrerPolicy='strict-origin-when-cross-origin';

@@ -1,0 +1,123 @@
+{
+  "assumptions": {
+    "scope": "United States; residential installations are a rounded proxy for solar homes",
+    "checkedDate": "2026-09-13",
+    "totalSolarInstallationsMilestone": 6000000,
+    "residentialShare": 0.97,
+    "incrementalBatteryAdoptionShare": 0.5,
+    "newBatteryUsableKWhPerSelectedHome": 13.5,
+    "typicalInstalledBenchmarkUSD": 15647,
+    "priceSensitivityUSD": [
+      13055,
+      15647,
+      20000
+    ],
+    "priceSensitivityBasis": [
+      "Published brand-specific installed-price example",
+      "Published typical installed-price benchmark",
+      "Assumed higher-cost case, not a published market percentile"
+    ],
+    "darlingtonFourUnitBudgetCAD": 20900000000,
+    "exchangeRateCADPerUSD": 1.3866,
+    "exchangeRateDate": "2026-09-11",
+    "dispatchDurationHours": 4,
+    "reserveEnergyFraction": 0.2,
+    "availableFleetFraction": 0.8,
+    "deliveredKWhPerSelectedHomePerCycle": 10,
+    "cyclesPerYear": 300,
+    "roundTripEfficiency": 0.9,
+    "rolloutTargetMonths": [
+      24,
+      36,
+      48
+    ],
+    "darlingtonNameplateGW": 1.2,
+    "illustrativeNuclearCapacityFactor": 0.9
+  },
+  "sources": {
+    "residentialBaseline": "https://seia.org/research-resources/6-million-solar-installations/",
+    "installedPrice": "https://www.energysage.com/energy-storage/how-much-do-batteries-cost/",
+    "darlington": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/",
+    "exchangeRate": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?start_date=2026-09-11&end_date=2026-09-11"
+  },
+  "results": {
+    "solarHomesProxy": 5820000,
+    "selectedHomes": 2910000,
+    "energyGWh": 39.285,
+    "theoreticalFourHourGW": 9.82125,
+    "illustrativeFourHourGWAfterReserveAndAvailability": 6.2856,
+    "annualShiftedEnergyTWh": 8.73,
+    "annualChargingEnergyTWh": 9.7,
+    "costs": [
+      {
+        "perHomeUSD": 13055,
+        "totalUSD": 37990050000,
+        "basis": "Published brand-specific installed-price example"
+      },
+      {
+        "perHomeUSD": 15647,
+        "totalUSD": 45532770000,
+        "basis": "Published typical installed-price benchmark"
+      },
+      {
+        "perHomeUSD": 20000,
+        "totalUSD": 58200000000,
+        "basis": "Assumed higher-cost case, not a published market percentile"
+      }
+    ],
+    "darlingtonUSD": 15072840040.386557,
+    "baselineBatteryCostToDarlingtonBudgetRatio": 3.0208487503349284,
+    "sameBudgetBatteryHomes": 963305.4285413534,
+    "sameBudgetBatteryEnergyGWh": 13.004623285308272,
+    "maxPerHomePriceToFitAllSelectedHomesIntoDarlingtonBudgetUSD": 5179.670116971325,
+    "rolloutTargets": [
+      {
+        "months": 24,
+        "completedHomesPerMonth": 121250,
+        "installedGWhPerYear": 19.6425
+      },
+      {
+        "months": 36,
+        "completedHomesPerMonth": 80833.33333333333,
+        "installedGWhPerYear": 13.094999999999999
+      },
+      {
+        "months": 48,
+        "completedHomesPerMonth": 60625,
+        "installedGWhPerYear": 9.82125
+      }
+    ],
+    "illustrativeDarlingtonGeneratedEnergyTWhPerYear": 9.4608,
+    "operationalCarbonIllustrations": [
+      {
+        "label": "Otherwise-curtailed solar charging; displaces 0.4 kg CO2/kWh peak supply",
+        "chargingOpportunityEmissionKgPerKWh": 0,
+        "displacedEmissionKgPerKWh": 0.4,
+        "avoidedMillionTonnesCO2PerYear": 3.492
+      },
+      {
+        "label": "Charging forgoes exports displacing 0.3 kg CO2/kWh; discharge displaces 0.4",
+        "chargingOpportunityEmissionKgPerKWh": 0.3,
+        "displacedEmissionKgPerKWh": 0.4,
+        "avoidedMillionTonnesCO2PerYear": 0.582
+      },
+      {
+        "label": "Same marginal 0.4 kg CO2/kWh at charging and discharge; losses increase emissions",
+        "chargingOpportunityEmissionKgPerKWh": 0.4,
+        "displacedEmissionKgPerKWh": 0.4,
+        "avoidedMillionTonnesCO2PerYear": -0.388
+      }
+    ]
+  },
+  "limitations": [
+    "Incremental one-battery addition at half of existing solar homes; not an estimate of batteries needed to reach 50 percent total penetration. Existing storage has not been subtracted.",
+    "Storage shifts energy; it does not create the solar electricity required to charge it.",
+    "Power calculations assume adequate inverter power, charge, permissions and geographically useful access; they are not accredited firm capacity.",
+    "Retail installed-price benchmark is not a Prosper quote or a guaranteed solar-retrofit price. No incentives assumed.",
+    "Capital comparison only: currencies aligned, but retail battery and all-in nuclear budget cost scopes and service lives differ. No equal-service or levelized-cost claim.",
+    "Original PV cost is sunk and excluded. Additional PV, repairs, financing, aggregation, network upgrades, degradation, and replacements are not independently priced.",
+    "Rollout durations, utilization, efficiency, availability and carbon factors are assumptions, not verified national outcomes.",
+    "Carbon illustrations exclude embodied emissions and use hypothetical marginal-grid counterfactuals. They are not estimates of national emissions savings."
+  ],
+  "verification": "Arithmetic, unit conversion, cost identity, scenario conservation and carbon-sign checks passed"
+}

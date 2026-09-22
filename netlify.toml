@@ -2,6 +2,23 @@
   publish = "site"
 
 [[redirects]]
+  from = "/prosper"
+  to = "/guides/prosper-opportunity-source-room/"
+  status = 301
+[[redirects]]
+  from = "/prosper/"
+  to = "/guides/prosper-opportunity-source-room/"
+  status = 301
+[[redirects]]
+  from = "/source-room"
+  to = "/guides/prosper-opportunity-source-room/"
+  status = 301
+[[redirects]]
+  from = "/source-room/"
+  to = "/guides/prosper-opportunity-source-room/"
+  status = 301
+
+[[redirects]]
   from = "/news"
   to = "/"
   status = 301

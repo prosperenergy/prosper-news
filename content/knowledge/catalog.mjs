@@ -1,8 +1,10 @@
+import {opportunitySources} from './source-room.mjs';
 export const updated = '2026-09-15';
 export const origin = 'https://news.prospershield.io';
-export const topics = ['Nuclear costs', 'Health & waste', 'Working solar', 'Battery storage', 'Power control'];
+export const topics = ['Nuclear costs', 'Health & waste', 'Working solar', 'Battery storage', 'Power control', 'Prosper & TAG'];
 const source = (id, title, publisher, url, type, date, note, checked='2026-09-14') => ({id,title,publisher,url,type,date,note,checked});
 export const sources = [
+...opportunitySources,
 source('vogtle','Vogtle Unit 4 begins commercial operation','U.S. EIA','https://www.eia.gov/todayinenergy/detail.php?id=61963','Government data','2024-05-01','Completed large-reactor project, not an SMR. Cost and schedule history; electricity is now being generated.'),
 source('nuscale-price','Carbon Free Power Project updated price target','NuScale','https://www.nuscalepower.com/press-releases/2023/nuscale-reaches-key-milestone-in-the-development-of-the-carbon-free-power-project','Developer statement','2023-01-09','US$89/MWh was a project target with financing assumptions, not an operating plant price.'),
 source('nuscale-cancel','Carbon Free Power Project termination','NuScale / UAMPS','https://www.nuscalepower.com/press-releases/2023/utah-associated-municipal-power-systems-and-nuscale-power-agree-to-terminate-the-carbon-free-power-project','Developer statement','2023-11-08','Insufficient expected customer subscription. A failed project does not prove every SMR must fail.'),
@@ -42,6 +44,7 @@ source('nuscale-early','UAMPS describes its earlier SMR price and schedule','Ame
 source('smr-operating','SMR deployment and operating examples','IAEA','https://www.iaea.org/sites/default/files/gc/gov-inf-2025-8-gc69-inf-4.pdf','Intergovernmental assessment','2025','Documents commercial operation at Akademik Lomonosov and HTR-PM. These examples do not establish U.S. household economics.'),
 ];
 export const articles = [
+{slug:'prosper-opportunity-source-room',title:'The Prosper opportunity: Source Room',dek:'Company milestones, Craig Stratton’s industry story and independent M&A coverage, with direct links to every original source.',topic:'Prosper & TAG',kind:'Source room',file:'source-room.md',sourceRoom:true,published:'2026-09-22',updated:'2026-09-22'},
 {slug:'mini-nuclear-is-a-promise',title:'Mini nuclear is a promise. Your roof is a power plant.',dek:'Craig’s position, the project receipts, and the household decision that should not wait.',topic:'Nuclear costs',kind:'Founder research brief',file:'flagship.md',featured:true,author:'Craig Stratton',image:'/assets/a7f739063b2cca71.webp'},
 {slug:'nuclear-project-scorecard',title:'Show the plant. Show the price. Show the delivery.',dek:'Vogtle, NuScale, Darlington and V.C. Summer, with forecasts separated from results.',topic:'Nuclear costs',kind:'Project scorecard',file:'projects.md'},
 {slug:'nuclear-health-evidence',title:'Nuclear health claims deserve a closer look.',dek:'Cancer studies, radiation exposure and accidents: what the evidence supports, and what it does not.',topic:'Health & waste',kind:'Evidence review',file:'health.md'},
