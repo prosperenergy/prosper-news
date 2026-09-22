@@ -1,0 +1,486 @@
+{
+  "title": "Mini Nuclear Is a Promise. Your Roof Is a Power Plant.",
+  "subtitle": "Solar Is the Smarter Bet — the Prosper point of view",
+  "host": "Hannah",
+  "format": "Prosper News editorial commentary / earnest video essay",
+  "sourceArticle": "https://news.prospershield.io/",
+  "researchCutoff": "2026-09-12",
+  "spokenWordsPerMinute": 145,
+  "sceneTransitionSeconds": 3,
+  "hooks": [
+    {
+      "type": "Verdict-first — selected",
+      "text": "Mini nuclear is a promise. Your roof can be a power plant. Our position at Prosper is simple: put working solar and thoughtfully designed storage ahead of waiting on a reactor announcement. I'm Hannah, Prosper's AI presenter. A confident face on a screen isn't evidence, so let's put the evidence on the screen."
+    },
+    {
+      "type": "Artifact-first — alternative",
+      "text": "This is the line at the top of our Prosper News article: Solar is the smarter bet. We mean it. Nuclear developers can make their pitch. But families deserve more than a future completion date. They deserve a practical look at what their roof produces, what their utility charges, and what storage could change."
+    },
+    {
+      "type": "Question-first — alternative",
+      "text": "If your solar stopped producing tomorrow, would you know? That's a more useful question for your household than whether a proposed reactor might become affordable years from now. At Prosper, we want solar that works, storage with a clear job, and numbers you can inspect. Let's explain why that's our bet."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "01",
+      "title": "The opening: make the position unmistakable",
+      "performance": "Direct eye contact. Calm conviction. Pause after the first two sentences; no excited sales pitch.",
+      "visual": "Open on the existing Prosper News / Now Live card for two seconds. Cut to the approved Hannah avatar, waist-up, in a cream-and-Prosper-blue editorial set. Keep the real Prosper logo visible.",
+      "screen": [
+        "PROSPER NEWS",
+        "SOLAR IS THE SMARTER BET.",
+        "Hannah · AI presenter",
+        "Opinion & analysis · Prosper"
+      ],
+      "narration": "Mini nuclear is a promise. Your roof can be a power plant.\n\nOur position at Prosper is simple: put working solar and thoughtfully designed storage ahead of waiting on a reactor announcement.\n\nI'm Hannah, Prosper's AI presenter. A confident face on a screen isn't evidence, so let's put the evidence on the screen.\n\nWe want to know what a technology delivers, what it costs, and when it starts helping the people paying the bills.\n\nThat standard applies to a nuclear developer. It applies to a solar company. And it absolutely applies to Prosper.\n\nBecause the interesting question isn't who has the most impressive promise. It's what can make your home work better.",
+      "sourceRefs": [
+        "article"
+      ],
+      "retention": "Cold verdict, presenter disclosure, and a common accountability standard. Plant the promise-versus-performance contrast."
+    },
+    {
+      "id": "02",
+      "title": "What we mean by mini nuclear",
+      "performance": "Fair description of the pitch, followed by firm scrutiny. Critique the proposal, not engineers or people who support nuclear.",
+      "visual": "Original, plainly labeled proposal graphic: design → financing → licensing → construction → operating electricity. Reveal one stage at a time. No invented developer logo or fabricated project footage.",
+      "screen": [
+        "A PROPOSAL HAS TO BECOME A POWER PLANT.",
+        "Financing · Licensing · Construction · Delivery"
+      ],
+      "narration": "Mini nuclear usually means small modular reactors: designs intended to deliver nuclear power in smaller units, with more factory-built components.\n\nThe pitch is that smaller, repeatable designs could improve delivery. That's a proposition worth examining. It isn't a result we should assume.\n\nA proposed reactor still needs a credible route through financing, licensing, construction, and operation. The schedule matters. The final bill matters. Who carries the risk matters.\n\nWe're not saying nuclear physics is imaginary. We're saying an announcement and a dependable energy solution for your household are very different things.\n\nAnd we're not comfortable telling a family to put practical improvements on hold while someone else's project works through that list.\n\nShow the delivery. Then make the argument.",
+      "sourceRefs": [
+        "smr-definition",
+        "article"
+      ],
+      "retention": "Define the target precisely: the promised delivery case, not whether nuclear energy exists."
+    },
+    {
+      "id": "03",
+      "title": "The receipts: Vogtle",
+      "performance": "Slow down for dates and dollar amounts. Allow reading time. Focus criticism on delivery and accountability.",
+      "visual": "Hannah in picture-in-picture beside a reconstruction of the article's Vogtle table. Reveal original estimates first, then operating dates and reported cost. Label the comparison historical.",
+      "screen": [
+        "VOGTLE: THE DELIVERY RECORD",
+        "$14B originally expected → more than $30B reported",
+        "Unit 3: 2016 expected → July 2023 operating",
+        "Unit 4: 2017 expected → April 2024 operating",
+        "Source: EIA · May 1, 2024 · Large-reactor project"
+      ],
+      "narration": "Let's start with a real project: the two-reactor expansion at Plant Vogtle in Georgia.\n\nAnd before we point at someone else's sales pitch, remember: Prosper's proposals should be held to their numbers, too.\n\nAccording to the U.S. Energy Information Administration, Vogtle's expansion was originally expected to cost fourteen billion dollars. Unit Three was expected to begin operating in twenty sixteen, and Unit Four in twenty seventeen.\n\nUnit Three began commercial operation in July twenty twenty-three. Unit Four followed in April twenty twenty-four. The cost reported by the agency was more than thirty billion dollars.\n\nVogtle is a large-reactor project, not an example of an operating small modular reactor. It doesn't tell us what every future design will cost.\n\nIt does show why we ask hard questions when a new nuclear project is presented as an affordability solution.\n\nOptimism is not a cost-control system.",
+      "sourceRefs": [
+        "vogtle"
+      ],
+      "retention": "First concrete evidence payoff. Separate the historical large-reactor example from SMR forecasts."
+    },
+    {
+      "id": "04",
+      "title": "The test every promise should pass",
+      "performance": "Conversational and probing, like walking a homeowner through a proposal.",
+      "visual": "Four questions appear beside Hannah. Keep each readable for at least four seconds. End on the electricity-delivery question.",
+      "screen": [
+        "WHAT IS THE FULL COST?",
+        "WHEN DOES IT DELIVER?",
+        "WHO CARRIES THE OVERRUN?",
+        "WHAT CAN WE BUILD IN THE MEANTIME?"
+      ],
+      "narration": "So here's the test we'd put in front of any new reactor proposal.\n\nWhat is the full cost, including financing? What's the credible operating date? Who absorbs the overrun? And what could a realistic combination of solar, storage, efficiency, and grid improvements deliver during the same period?\n\nThat last question is important. A project can have good lifetime emissions and still arrive too late to be the strongest response to today's problem.\n\nSolar projects can face delays, too. Nobody gets to compare a perfect solar schedule with a troubled nuclear schedule and call that fair.\n\nCompare real alternatives, with real constraints.\n\nOur opinion is that solar and storage have earned priority through the progress they've already delivered. A future reactor should have to earn its place through the same kind of evidence.",
+      "sourceRefs": [
+        "article",
+        "queues"
+      ],
+      "retention": "Turn criticism into a reusable decision framework."
+    },
+    {
+      "id": "05",
+      "title": "Why solar and storage earned our confidence",
+      "performance": "Confident, with a clear pause before the household-price distinction. The chart is evidence, not a retail discount.",
+      "visual": "Two-panel graphic using cited article figures. Solar and batteries stay in separate panels with different units and prominent utility-scale labels.",
+      "screen": [
+        "NEW UTILITY-SCALE SOLAR: $44 / MWh",
+        "Global weighted average · 2025 projects · 2025 USD",
+        "89% lower solar generation cost since 2010",
+        "Around 95% lower installed four-hour utility-battery cost since 2010",
+        "Source: IRENA · Renewable Power Generation Costs in 2025"
+      ],
+      "narration": "Look at the cost history.\n\nThe International Renewable Energy Agency reports a global average of forty-four dollars per megawatt-hour for new utility-scale solar commissioned in twenty twenty-five. That's eighty-nine percent below twenty ten.\n\nIts estimate for installed four-hour utility-scale batteries is around ninety-five percent below twenty ten.\n\nThose are different measures, and neither is a price quote for your house. They tell us something about the record of the technologies.\n\nSolar modules, batteries, installation methods, and controls can improve through repeated manufacturing and engineering. That progress has already happened at substantial scale.\n\nPrices don't fall every quarter. In fact, that solar-generation average was flat against the previous year. Financing and local installation costs still matter.\n\nOur confidence doesn't depend on a fantasy of endless price drops. It comes from a history of equipment getting more capable and more affordable.",
+      "sourceRefs": [
+        "irena"
+      ],
+      "retention": "A positive case with bounded, labeled figures; avoid implying retail savings."
+    },
+    {
+      "id": "06",
+      "title": "Storage is already operating",
+      "performance": "Emphasize 'operating.' Make the power-versus-stored-energy distinction clear.",
+      "visual": "Count-up stops at Nearly 52 GW. Below it: U.S. utility-scale battery power capacity · June 2026. Observation date stays visible throughout.",
+      "screen": [
+        "NEARLY 52 GW OPERATING",
+        "U.S. utility-scale battery power capacity · June 2026",
+        "8.3 GW added in the first half of 2026",
+        "Source: EIA · August 7, 2026",
+        "Power capacity ≠ stored energy or backup duration"
+      ],
+      "narration": "Storage also has an operating record you can count.\n\nIn its August twenty twenty-six update, the Energy Information Administration reported nearly fifty-two gigawatts of operating utility-scale battery power capacity in the United States by June.\n\nOperators had added eight-point-three gigawatts in the first half of the year.\n\nThat number describes power capacity. It doesn't tell you how many hours the fleet could support a particular load, and it isn't a count of home batteries.\n\nBut it matters to this debate because we're talking about equipment reported as operating, not only projects announced for the future.\n\nA plan is useful. A completed installation is stronger evidence.\n\nThat's the distinction we want homeowners to keep making, whether they're hearing about a reactor, a solar project, or a battery on their own wall.",
+      "sourceRefs": [
+        "battery-deployment"
+      ],
+      "retention": "Replay promise versus performance with completed storage additions."
+    },
+    {
+      "id": "07",
+      "title": "The credibility check: nuclear is low-carbon, too",
+      "performance": "Level and unhurried. An honest qualification that strengthens the argument.",
+      "visual": "Use the article's life-cycle emissions chart. Keep NREL 2021 attribution and literature-median caveat visible. Do not crop out nuclear's lower median.",
+      "screen": [
+        "NUCLEAR IS ALSO LOW-CARBON.",
+        "Cost · Timing · Delivery · Household control",
+        "Historical literature medians · Generation-only comparison"
+      ],
+      "narration": "Here's something a serious pro-solar argument should say out loud: nuclear is also a low-carbon source of electricity.\n\nIn the life-cycle research compilation shown in our article, nuclear's median emissions are lower than solar's. We show that chart because facts don't become inconvenient just because they complicate a headline.\n\nSolar manufacturing has a footprint. Glass, metals, silicon, transport, and eventual recycling all belong in the accounting.\n\nExisting nuclear plants can provide valuable clean electricity. Closing one and replacing its output with fossil generation can work against the goal.\n\nOur criticism is aimed at treating new nuclear promises as the default answer to affordability and near-term household needs.\n\nWe favor solar and storage because of their delivery record and the control they can put closer to the customer. We don't need to pretend another technology has no value to make that case.",
+      "sourceRefs": [
+        "lifecycle",
+        "article"
+      ],
+      "retention": "Midpoint credibility pivot: acknowledge the counterpoint and sharpen the real thesis."
+    },
+    {
+      "id": "08",
+      "title": "Yes, the sun goes down. Design for it.",
+      "performance": "Matter-of-fact. Explain the distinction without sounding defensive or technical for its own sake.",
+      "visual": "Simple original diagram: sunlight → solar → home; excess generation → battery; battery → selected home loads later. Add kW and kWh labels separately. Show a proper backup configuration as a separate requirement, not an automatic feature.",
+      "screen": [
+        "SOLAR GENERATES. STORAGE SHIFTS.",
+        "kW = power available at one time",
+        "kWh = stored energy",
+        "Outage backup requires the right system design"
+      ],
+      "narration": "Yes, the sun goes down. That's a design requirement, not a revelation.\n\nA battery can store energy for later. Whether that helps with evening use, a particular rate schedule, or an outage depends on the system and the job you give it.\n\nTwo measurements matter. Kilowatts describe power: how much equipment the system can supply at once. Kilowatt-hours describe energy: how much it stores.\n\nThink of flow and tank size. A large tank doesn't guarantee enough flow to start every appliance. A strong flow doesn't tell you how long the tank will last.\n\nAnd ordinary grid-connected solar generally shuts down during an outage. Keeping selected loads running requires a compatible backup design and the right equipment.\n\nThe question isn't simply, do you have a battery?\n\nIt's, what was your system designed to do?",
+      "sourceRefs": [
+        "storage-basics",
+        "inverters",
+        "resilience"
+      ],
+      "retention": "Answer the obvious objection and give the viewer a useful two-unit distinction."
+    },
+    {
+      "id": "09",
+      "title": "Before you add storage, check the solar.",
+      "performance": "Practical and helpful. Let the battery-does-not-fix-solar line land without talking over it.",
+      "visual": "Illustrative monitoring dashboard clearly labeled Example, not customer data. Show production history, an alert, twelve months of bills, then a qualified technician. Optional very short Baby Mr. Electric reaction cutaway; return immediately to Hannah.",
+      "screen": [
+        "IS YOUR SOLAR DOING ITS JOB?",
+        "Production history · Alerts · Bills · Service support",
+        "A BATTERY DOESN'T FIX A SOLAR-PRODUCTION FAULT."
+      ],
+      "narration": "If you already have solar, start with the system you own.\n\nCan you see its production history? Are alerts being answered? Does its output make sense for the season and the system's design?\n\nBring together the monitoring record, your original system information, and twelve months of electricity bills.\n\nA bigger bill alone doesn't prove the panels failed. Your usage or rates may have changed. A blank monitoring screen can be a communications problem rather than a generation problem.\n\nBut guessing isn't a service plan.\n\nHave a qualified professional investigate the issue and explain the findings. Ask who handles the repair, whether a warranty applies, and what happens next. Don't climb onto the roof or open electrical equipment to investigate it yourself.\n\nA battery doesn't fix a solar-production fault.\n\nMake the solar work. Then decide what storage should add.",
+      "sourceRefs": [
+        "article"
+      ],
+      "retention": "Shift from industry debate to an immediate homeowner action; memorable warning.",
+      "optionalAssets": [
+        "baby-electric"
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Give the battery a job—and make the numbers answer.",
+      "performance": "Sharp on bad projections, constructive on the homeowner's choices. Avoid a universal savings promise.",
+      "visual": "Three job cards: evening energy, rate management, selected-load backup. An illustrative proposal checklist shows actual tariff, export rules, compatibility, capacity, output, installed cost, financing, and remaining utility charges. Optional muted fox cutaway symbolizes a rate problem only.",
+      "screen": [
+        "WHAT IS THE BATTERY'S JOB?",
+        "Evening energy · Rate management · Selected-load backup",
+        "Rates, export rules, eligibility and results vary."
+      ],
+      "narration": "Now give the battery a job.\n\nDo you want to use more of your solar after sunset? Manage an expensive time-of-use period? Keep selected essentials running during an outage?\n\nThose goals can overlap, but they don't always call for the same settings or system size.\n\nStart with your actual utility tariff and export rules. Check compatibility with your existing equipment. Compare usable energy, power output, installed cost, financing, and the utility charges that would remain.\n\nProsper's storage page is a place to start that conversation. A product logo isn't a finished design, and a big number on a brochure isn't a household savings calculation.\n\nAsk for the assumptions in writing.\n\nIf the math doesn't fit your house, the responsible answer is to change the plan, not decorate the projection.\n\nThat's the standard we want you to bring to us.",
+      "sourceRefs": [
+        "article",
+        "prosper-storage",
+        "storage-basics"
+      ],
+      "retention": "Replace vague battery enthusiasm with a specific decision and demand for transparent assumptions.",
+      "optionalAssets": [
+        "sly-fox"
+      ]
+    },
+    {
+      "id": "11",
+      "title": "The grid still matters.",
+      "performance": "Clear-eyed. Do not imply rooftop solar avoids all approvals or that utility-scale queue figures apply to household installations.",
+      "visual": "Grid connection diagram with transmission-scale project queue and household interconnection shown as distinct categories. Keep study scope visible next to the queue statistic.",
+      "screen": [
+        "BUILDING EQUIPMENT ISN'T THE WHOLE JOB.",
+        "Transmission-project study: median over five years",
+        "Projects completed in 2025 · Regions with available data",
+        "Not a residential installation timeline"
+      ],
+      "narration": "There's another part of delivery that gets lost in energy arguments: connecting the equipment.\n\nLawrence Berkeley National Laboratory's twenty twenty-six queue report found a median wait of more than five years for transmission-connected projects completed in twenty twenty-five, in the regions with available data.\n\nThat's a transmission-project finding. It is not a prediction that your rooftop installation will take five years.\n\nBut it explains why buying hardware isn't the same thing as delivering a working energy system.\n\nHousehold projects can also need utility review, permits, and inspections. The requirements depend on the location and design.\n\nWe want better connections, practical controls, and more effective permitting alongside solar and storage.\n\nLocal energy can put useful equipment closer to the load. It doesn't make every grid constraint or approval disappear.",
+      "sourceRefs": [
+        "queues",
+        "article"
+      ],
+      "retention": "Broaden the practical delivery test and inoculate against an overclaim about rooftop timelines."
+    },
+    {
+      "id": "12",
+      "title": "Count the whole lifecycle.",
+      "performance": "Serious, not ominous. No disaster music or imagery that implies unsupported health claims.",
+      "visual": "Two balanced lifecycle strips. Solar: manufacturing → operation → reuse/recycling. Nuclear: fuel → operation → spent-fuel management. Use neutral symbols; no mushroom clouds, glowing waste, or fake measurements.",
+      "screen": [
+        "COUNT THE WHOLE LIFECYCLE.",
+        "Manufacturing · Water · Operation · End-of-life responsibility"
+      ],
+      "narration": "We also care about what a technology requires over its full life.\n\nPhotovoltaic solar doesn't need the thermal cooling process used by many large power plants. That gives it an operational water advantage in many comparisons, though manufacturing and site maintenance still have impacts.\n\nNuclear creates spent fuel that requires carefully managed handling and storage, with long-term disposal responsibilities. Properly managed storage is a regulated protection system, not evidence that everyone nearby is in danger.\n\nAnd solar doesn't get a free pass at the end of its life. Panels, batteries, and other equipment need responsible handling, reuse where appropriate, and recycling pathways.\n\nThe useful argument is about the actual requirements and who is accountable for them.\n\nWe prefer solutions that can be delivered, maintained, and responsibly managed—not a marketing story that stops when the installation photo is taken.",
+      "sourceRefs": [
+        "water",
+        "nuclear-waste",
+        "recycling"
+      ],
+      "retention": "Address long-term objections without fearmongering, and connect responsibility back to aftercare."
+    },
+    {
+      "id": "13",
+      "title": "What a good Prosper plan should contain.",
+      "performance": "Warm, specific, accountable. These are standards to request, not claims that every service is already included.",
+      "visual": "Three-step plan with legible deliverables: 1. Check performance. 2. Define storage. 3. Name the support owner. Show the live article's system-check section and service links, not a fabricated customer proposal.",
+      "screen": [
+        "CHECK PERFORMANCE.",
+        "DEFINE THE STORAGE JOB.",
+        "KNOW WHO SUPPORTS IT.",
+        "Request scope, costs, assumptions and support terms in writing."
+      ],
+      "narration": "Here's what we'd like a good conversation with Prosper to produce.\n\nFirst, a clear picture of what your solar is doing today. Not just how many panels are on the roof, but what they produce and what your bills show.\n\nSecond, a storage plan with a defined purpose: the loads you care about, the energy and power required, the backup configuration if you want it, and the complete cost.\n\nThird, a clear answer about support. Who monitors the system, if monitoring is included? Who responds to a problem? What do the warranties cover? Can you access your records and see what's happening?\n\nAvailability, incentives, approvals, and timing depend on the project. Have those details confirmed for your home.\n\nThe promise isn't that every house gets the same answer.\n\nIt's the standard we should all insist on: the system has to keep earning its place on your home.",
+      "sourceRefs": [
+        "article",
+        "prosper-storage"
+      ],
+      "retention": "Deliver the homeowner checklist promised by the talk; turn the opinion into an accountable service standard."
+    },
+    {
+      "id": "14",
+      "title": "Powering more than your home.",
+      "performance": "Slow slightly. Sincere, community-minded, not a swelling corporate speech. Pause between the two lines from the supplied graphic.",
+      "visual": "Bring in Craig's supplied community graphic, uncropped and readable, on a black background. Preserve its white-and-teal wording as supplied. Optional very brief Prosper Shield versus Sly Fox character beat as a brand metaphor only; no legacy end card.",
+      "screen": [
+        "POWERING MORE THAN YOUR HOME.",
+        "POWERING OUR COMMUNITY.",
+        "Knowledge. Support. Accountability."
+      ],
+      "narration": "Powering more than your home. Powering our community.\n\nThat's the direction we want Prosper to stand for.\n\nIt starts with a family understanding its energy system, knowing where to get help, and being able to question a proposal without feeling lost.\n\nThen those questions travel. A neighbor learns to check production. A friend asks what a battery will actually run. Another family learns that a warranty and a working service relationship aren't the same thing.\n\nThat's a community benefit we can help build: better information, clearer expectations, and people looking out for one another.\n\nThe slogan doesn't mean every home battery can power the neighborhood. It means the responsibility should extend beyond making a sale.\n\nEquipment matters. So does who stands behind it.",
+      "sourceRefs": [],
+      "retention": "Human-stakes payoff tied directly to the user's community artwork without implying a neighborhood microgrid.",
+      "optionalAssets": [
+        "community-photo",
+        "shield-fox"
+      ]
+    },
+    {
+      "id": "15",
+      "title": "The close: evidence, then action.",
+      "performance": "Return to the directness of the opening. Warm invitation, not urgency. Leave the final card up long enough to read.",
+      "visual": "Hannah full frame, then the Prosper News card with the live article URL and Read the research / Check your solar / Explore storage. End with the community graphic or Prosper logo. Hold the final card six seconds.",
+      "screen": [
+        "SOLAR AND STORAGE FIRST.",
+        "KEEP THEM WORKING.",
+        "news.prospershield.io",
+        "Read the research · Check your solar · Explore storage"
+      ],
+      "narration": "So here's our position.\n\nPrioritize working solar. Add storage where it does a useful job. Improve efficiency and connections. Make every competing proposal prove its cost, timing, and value.\n\nIf a future reactor earns its case with evidence, examine the evidence. Until then, homeowners shouldn't have to confuse somebody else's promise with a plan for their own roof.\n\nYou don't have to take my digital word for it. Read the sources. Bring your numbers. Ask the questions.\n\nYou'll find the full article, research links, and ways to discuss solar performance and storage at news dot Prosper Shield dot I O.\n\nMini nuclear is a promise. Your roof can be a power plant.\n\nSolar and storage first. Keep them working. Take your power back.\n\nPowering more than your home. Powering our community.",
+      "sourceRefs": [
+        "article"
+      ],
+      "retention": "Replay the opening contrast, resolve the practical question, and give one spoken destination.",
+      "extraHoldSeconds": 3
+    }
+  ],
+  "sources": [
+    {
+      "id": "article",
+      "title": "Prosper News — Solar Is the Smarter Bet",
+      "url": "https://news.prospershield.io/",
+      "date": "Live article consulted September 12, 2026",
+      "supports": "Editorial position, household system-check framework, and Prosper service destinations. This is Prosper's commercial editorial viewpoint, not independent reporting."
+    },
+    {
+      "id": "smr-definition",
+      "title": "IAEA — What Are Small Modular Reactors?",
+      "url": "https://www.iaea.org/newscenter/news/what-are-small-modular-reactors-smrs",
+      "date": "Updated September 13, 2023; first published November 4, 2021",
+      "supports": "Definition of small modular reactors and the proposed role of factory assembly. Does not prove any particular project's future cost or delivery."
+    },
+    {
+      "id": "vogtle",
+      "title": "EIA — Plant Vogtle Unit 4 begins commercial operation",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=61963",
+      "date": "May 1, 2024",
+      "supports": "Original $14 billion expected cost; Unit 3/4 expected dates of 2016/2017; actual July 2023/April 2024 commercial operation; cost more than $30 billion. Historical large-reactor project, not an SMR cost forecast."
+    },
+    {
+      "id": "irena",
+      "title": "IRENA — Renewable Power Generation Costs in 2025, executive summary",
+      "url": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2026/Jul/IRENA_TEC_RPGC_2025_Executive_summary_2026.pdf",
+      "date": "July 2026",
+      "supports": "2025 global utility-scale solar LCOE $44/MWh in 2025 dollars, 89% lower than 2010; around 95% lower installed four-hour utility-scale battery cost since 2010. Different metrics, not residential quotes. Solar LCOE flat versus 2024."
+    },
+    {
+      "id": "battery-deployment",
+      "title": "EIA — U.S. utility-scale battery storage capacity, August 2026 update",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=67925",
+      "date": "August 7, 2026",
+      "supports": "Nearly 52 GW operating utility-scale battery power capacity by June 2026; 8.3 GW added in the first half of 2026. Power capacity, not stored energy or outage duration."
+    },
+    {
+      "id": "mit-nuclear",
+      "title": "MIT — Study identifies reasons for soaring nuclear plant cost overruns",
+      "url": "https://news.mit.edu/2020/reasons-nuclear-overruns-1118",
+      "date": "November 18, 2020",
+      "supports": "Historical construction-cost research and the need to assess real delivery constraints; not a cost estimate for every future SMR."
+    },
+    {
+      "id": "lifecycle",
+      "title": "NREL — Life Cycle Emissions Factors for Electricity Generation Technologies",
+      "url": "https://data.nlr.gov/submissions/171",
+      "date": "2021 compilation linked in the article",
+      "supports": "Literature medians show nuclear and solar both low-carbon, with nuclear's median lower than PV in the cited compilation. Generation comparison; not a complete solar-plus-storage system lifecycle assessment."
+    },
+    {
+      "id": "storage-basics",
+      "title": "U.S. DOE — Solar Integration: Solar Energy and Storage Basics",
+      "url": "https://www.energy.gov/cmei/systems/solar-integration-solar-energy-and-storage-basics",
+      "date": "Accessed September 12, 2026",
+      "supports": "Storage shifts solar energy to other times and can support resilience. Actual household value depends on configuration and use."
+    },
+    {
+      "id": "inverters",
+      "title": "U.S. DOE — Solar Integration: Inverters and Grid Services Basics",
+      "url": "https://www.energy.gov/cmei/systems/solar-integration-inverters-and-grid-services-basics",
+      "date": "Accessed September 12, 2026",
+      "supports": "Solar-plus-storage operation without the grid requires an appropriate advanced inverter design; ordinary grid-connected inverters disconnect and shut down for relevant grid disturbances."
+    },
+    {
+      "id": "resilience",
+      "title": "U.S. DOE — The Road to Resilience with Rooftop Solar",
+      "url": "https://www.energy.gov/cmei/systems/articles/road-resilience-rooftop-solar",
+      "date": "Accessed September 12, 2026",
+      "supports": "Most residential solar relies on a grid connection; appropriately designed storage and power electronics can provide outage backup."
+    },
+    {
+      "id": "queues",
+      "title": "Lawrence Berkeley National Laboratory — Queued Up: 2026 Edition",
+      "url": "https://eta.lbl.gov/publications/queued-2026-edition-characteristics",
+      "date": "2026 report",
+      "supports": "Median connection duration over five years for transmission-connected projects completed in 2025 in regions with available data. This study does not describe a typical residential installation timeline."
+    },
+    {
+      "id": "water",
+      "title": "NREL — Operational Water Consumption and Withdrawal Factors for Electricity Generating Technologies",
+      "url": "https://research-hub.nlr.gov/en/publications/operational-water-consumption-and-withdrawal-factors-for-electric-4/",
+      "date": "2011 review",
+      "supports": "Operational water-use comparisons across generating technologies; distinguish operation from manufacturing and site-specific maintenance."
+    },
+    {
+      "id": "nuclear-waste",
+      "title": "U.S. NRC — High-Level Waste",
+      "url": "https://www.nrc.gov/waste/high-level-waste",
+      "date": "Accessed September 12, 2026",
+      "supports": "Spent nuclear fuel and high-level waste require regulated handling and storage and long-term disposal management. Not evidence of an unqualified danger to nearby residents."
+    },
+    {
+      "id": "recycling",
+      "title": "U.S. EPA — Solar Panel Recycling",
+      "url": "https://www.epa.gov/hw/solar-panel-recycling",
+      "date": "Accessed September 12, 2026",
+      "supports": "End-of-life solar-panel materials, management and recycling considerations. Does not substantiate a specific Prosper recycling service or battery disposal promise."
+    },
+    {
+      "id": "prosper-storage",
+      "title": "Prosper — Battery storage",
+      "url": "https://batteries.prospershield.io/",
+      "date": "Live page consulted September 12, 2026",
+      "supports": "A starting point for a Prosper storage discussion. Availability, installed design, pricing, financing, incentives and support require project-specific confirmation."
+    }
+  ],
+  "assets": [
+    {
+      "id": "community-photo",
+      "name": "Photo 1.jpg",
+      "originalPath": "/tmp/codex-remote-attachments/01a07d3d-404b-7871-9f21-6de50f499fc4/D27F23E5-6DA3-49CA-810A-2AE220985DF4/1-Photo-1.jpg",
+      "use": "Scene 14 and optional final card. Display intact; fit inside the video frame rather than stretching or cropping the words.",
+      "review": "Visible artwork reads POWERING MORE THAN YOUR HOME. POWERING OUR COMMUNITY. White and teal on black.",
+      "restrictions": "Community positioning, not a claim that each home system can supply neighbors or participate in a grid program."
+    },
+    {
+      "id": "baby-electric",
+      "name": "Baby_Mr_Electric_Funny.mov",
+      "originalPath": "/tmp/codex-remote-attachments/01a07d3d-404b-7871-9f21-6de50f499fc4/C4BCA977-0117-4B8B-AEC0-E7887525D42B/1-Baby_Mr_Electric_Funny.mov",
+      "seconds": 37.921305338541664,
+      "width": 1280,
+      "height": 720,
+      "audioTracks": 1,
+      "use": "Optional 2–3 second muted reaction cutaway in scene 09, under Hannah's narration; no additional spoken lines.",
+      "review": "Five sampled frames show a cartoon electrical character, a large bill gag, backup language and a sales end card. This is a sampled visual review, not a full playback or audio review.",
+      "restrictions": "Review candidate segment frame by frame before use. Existing end card carries another presenter's name. Do not include that end card or treat the bill gag as real customer evidence."
+    },
+    {
+      "id": "sly-fox",
+      "name": "Sly_Fox_Antagonist.mov",
+      "originalPath": "/tmp/codex-remote-attachments/01a07d3d-404b-7871-9f21-6de50f499fc4/C4BCA977-0117-4B8B-AEC0-E7887525D42B/2-Sly_Fox_Antagonist.mov",
+      "seconds": 51.875,
+      "width": 1280,
+      "height": 720,
+      "audioTracks": 1,
+      "use": "Optional 2–3 second muted fox cutaway in scene 10. Return to the actual tariff checklist immediately.",
+      "review": "Five sampled frames show rate/buyback imagery, a shield character and a battery. Burned-in text includes AFTER SUNSET, BUYBACK IS NOT 1-FOR-1.",
+      "restrictions": "Do not reuse universal buyback or time-of-use claims without correcting them for the specific context. Fox is a fictional metaphor, not an allegation about a real utility or nuclear company. Audio not reviewed."
+    },
+    {
+      "id": "shield-fox",
+      "name": "Prosper_Shield_vs_Sly_Fox.mov",
+      "originalPath": "/tmp/codex-remote-attachments/01a07d3d-404b-7871-9f21-6de50f499fc4/C4BCA977-0117-4B8B-AEC0-E7887525D42B/3-Prosper_Shield_vs_Sly_Fox.mov",
+      "seconds": 51.875,
+      "width": 1280,
+      "height": 720,
+      "audioTracks": 1,
+      "use": "Optional 2–3 second muted brand beat before the community card in scene 14; omit if it breaks the editorial tone.",
+      "review": "Five sampled frames show rate/buyback captions, a shield hero, a battery and a call-to-action end card. The final sampled frame displays another presenter's name.",
+      "restrictions": "Do not reuse legacy name/end card, unsupported tariff claims or unreviewed source audio. No shield animation may imply an equipment, savings or outage guarantee."
+    }
+  ],
+  "production": {
+    "status": "Script and production plan only. No avatar, voice, video render, upload or publication performed.",
+    "editorial": "Prosper commercial editorial commentary: explicitly pro-solar and pro-storage, skeptical of new mini-nuclear delivery and affordability promises. Not a claim that nuclear physics is imaginary, that no SMRs operate anywhere, or that solar plus a home battery replaces all firm grid generation.",
+    "host": "Use Hannah as requested. Label the host Hannah · AI presenter. Use only an approved likeness and voice; this script does not authorize cloning a person's identity. No invented personal experience, credentials or customer testimonials.",
+    "delivery": "Target 145 spoken words per minute, calm conviction, short pauses for figures. Timings are estimates, not rendered measurements. The scene transition allowance is 3 seconds each, with an additional 3 seconds for the final card. Short optional cutaways play under the narration, not as added runtime.",
+    "format": "16:9 master, preferably 1920×1080. The supplied clips are 1280×720; avoid implying they are native 1080p/4K. Keep important text and faces within safe margins for later social crops. Export shorter versions only after the full argument remains accurate.",
+    "brand": "Match the live news site: cream #f9f4ed, Prosper blue #0b5cff, acid yellow #f4ff00, ink #141414; existing Prosper logo; Fander display / Geist body where available. Preserve the supplied black/white/teal community graphic as provided. Keep evidence pages clean and legible.",
+    "cadence": "Start with the argument immediately. Change visual emphasis every 10–20 seconds as useful, not on a rigid timer. Give statistics reading time. No dramatic nuclear-disaster footage or fake before-and-after bills. Character humor is optional and brief.",
+    "audio": "Use the approved Hannah voice. Narration stays dominant over restrained music. Do not use unreviewed audio from the attached MOVs. Spell out numbers in the spoken script; show conventional numeric units on screen.",
+    "pronunciation": [
+      "Prosper: PROSS-per.",
+      "Vogtle: VOH-gul.",
+      "IRENA: eye-REE-nah; the script uses the agency's full name.",
+      "Kilowatt-hours and kilowatts are intentionally different.",
+      "Spoken URL: news dot Prosper Shield dot I O."
+    ],
+    "rights": "Keep source attributions with charts and figures. Prefer original reconstructions from cited data over reusing third-party footage. Verify any third-party visual and music permissions before rendering. User-provided originals remain untouched.",
+    "factualBoundaries": [
+      "Vogtle is historical large-reactor evidence, not an SMR project or a prediction for every future reactor.",
+      "Utility-scale global cost figures are not residential installed prices or savings estimates.",
+      "GW measures battery power, not energy capacity, discharge hours, or number of homes backed up.",
+      "Nuclear is also low-carbon; preserve the nuclear comparison in the cited lifecycle chart.",
+      "Queue duration is from transmission-connected projects, not a quoted wait for rooftop customers.",
+      "Backup requires the proper design. Never promise whole-home or multi-day backup without a project-specific load/energy analysis.",
+      "No fixed savings, rebates, credits, eligibility, installation date, service coverage or financing terms are promised.",
+      "Community wording does not claim automatic neighborhood backup, energy sharing, grid-service enrollment or payment.",
+      "Service questions are standards to ask Prosper to document, not representations that every service is already included."
+    ],
+    "clipReview": "Video metadata and five frames per clip were inspected. Full clip audio was not reviewed or transcribed. Cutaway suggestions are editorial candidates only; no precise edit points or final video approval are claimed.",
+    "nextProductionSteps": [
+      "Approve Hannah's actual avatar/voice identity and final script.",
+      "Review any chosen MOV cutaway in full, including captions and audio; omit unsuitable segments.",
+      "Paste each scene's narration-only text into the avatar tool, with visuals added separately.",
+      "Render a short voice/pronunciation test before a full render; paid generation requires its own authorization.",
+      "Check captions, source cards, factual qualifiers, audio balance, and the final article URL before publishing."
+    ]
+  }
+}

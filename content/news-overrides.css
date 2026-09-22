@@ -1,0 +1,25 @@
+.position-line{font-size:12px;line-height:1.65;font-weight:750;letter-spacing:.025em;max-width:42ch;margin:0 0 20px;color:var(--blue)}
+.hero .deck{max-width:38ch}
+.quick-start{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.quick-start a{display:inline-flex;align-items:center;min-height:44px;padding:10px 16px;border:1px solid var(--blue);border-radius:100px;font-size:12px;font-weight:700;text-decoration:none}
+.quick-start a:first-child{background:var(--blue);color:white}
+.home-plan{padding-top:12px;padding-bottom:68px;scroll-margin-top:110px}
+.home-plan h2{font:400 clamp(34px,4vw,52px)/1.1 var(--font-display);letter-spacing:-.025em;text-transform:uppercase;margin:18px 0 20px}
+.home-plan h2 em{font-style:normal;color:var(--blue)}
+.home-plan-intro{max-width:72ch;font-size:18px;line-height:1.8;margin:0 0 28px}
+.home-plan-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.home-plan-card{background:white;border:1px solid var(--line);border-top:4px solid var(--blue);border-radius:10px;padding:26px;display:flex;flex-direction:column}
+.step-number{font-size:10px;line-height:1.5;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:var(--blue)}
+.home-plan-card h3{font:400 29px/1.12 var(--font-display);text-transform:uppercase;margin:18px 0}
+.home-plan-card p{font-size:14px;line-height:1.75;margin:0 0 18px}
+.home-plan-card a{font-size:13px;font-weight:750;min-height:44px;display:flex;align-items:center;margin-top:auto;padding-top:12px;border-top:1px solid var(--line);text-decoration:none}
+.home-plan-note{font-size:12px;line-height:1.8;color:var(--muted);max-width:95ch;margin:20px 0 0}
+.cta-actions{display:flex;flex-direction:column;gap:12px;min-width:245px}
+.cta-actions a{text-align:center;white-space:normal;min-height:48px;display:flex;align-items:center;justify-content:center}
+.cta-actions .secondary{background:transparent;color:var(--ink);border:1px solid var(--ink)}
+.share-actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.share-link{border:1px solid var(--line);background:transparent;min-height:44px;border-radius:50px;padding:10px 16px;color:var(--muted);font-size:12px;text-decoration:none}
+.print-address{display:none}
+@media(max-width:1000px){.home-plan-grid{grid-template-columns:1fr}.home-plan-card{padding:24px}.home-plan-card h3{max-width:26ch}.home-plan-card p{max-width:75ch}}
+@media(max-width:720px){.home-plan{padding-top:0;padding-bottom:40px}.home-plan-intro{font-size:17px}.home-plan h2{font-size:34px}.cta-actions{margin-top:24px;gap:12px}.cta-actions a{margin-top:0}.position-line{font-size:12px}.print-link{display:inline-flex;align-items:center}}
+@media print{.home-plan{padding:18px 0;break-before:page}.home-plan h2{font-size:28px}.home-plan-grid{display:block}.home-plan-card{break-inside:avoid;display:block;margin-bottom:16px;padding:16px}.home-plan-card h3{font-size:22px;margin:12px 0}.home-plan-card p{font-size:11px;line-height:1.6}.home-plan-intro{font-size:12px}.home-plan-card a{font-size:11px}.quick-start,.share-actions{display:none}.position-line{font-size:12px}.print-address{display:block;font-size:11px}.hero-grid{display:block}.hero figure{margin-top:16px}.hero figure img{max-width:440px}.hero .deck{max-width:none}}

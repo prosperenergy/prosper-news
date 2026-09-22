@@ -1,0 +1,56 @@
+[build]
+  publish = "site"
+
+[[redirects]]
+  from = "/news"
+  to = "/"
+  status = 301
+[[redirects]]
+  from = "/news/"
+  to = "/"
+  status = 301
+[[redirects]]
+  from = "/news/mini-nuclear-is-a-promise/*"
+  to = "/guides/mini-nuclear-is-a-promise/"
+  status = 301
+[[redirects]]
+  from = "/mini-nuclear-is-a-promise/*"
+  to = "/guides/mini-nuclear-is-a-promise/"
+  status = 301
+[[redirects]]
+  from = "/solar-is-the-smarter-bet/*"
+  to = "/guides/mini-nuclear-is-a-promise/"
+  status = 301
+[[redirects]]
+  from = "/Prosper-Solar-Is-the-Smarter-Bet.html"
+  to = "/guides/mini-nuclear-is-a-promise/"
+  status = 301
+[[redirects]]
+  from = "/news/feed.xml"
+  to = "/feed.xml"
+  status = 301
+[[redirects]]
+  from = "/blog/*"
+  to = "/"
+  status = 301
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "SAMEORIGIN"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/assets/kb-*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+[[headers]]
+  for = "/assets/prosper-knowledge-base-share*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"

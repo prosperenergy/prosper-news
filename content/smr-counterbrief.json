@@ -1,0 +1,529 @@
+{
+  "title": "SMR Claims and Evidence for Prosper",
+  "date": "September 13, 2026",
+  "originalPath": "/Users/craigstratton/Library/Messages/Attachments/eb/11/9CA9B7CD-D22E-406D-B0FF-2B14F547E385/SMR Research Brief by Zackary D Jackson powered by Perplexity and Anthropic .docx",
+  "sources": [
+    {
+      "id": "brief",
+      "title": "Small Modular Reactors in North America",
+      "publisher": "Zackary Jackson",
+      "date": "September 13, 2026",
+      "url": null,
+      "locator": "Supplied research brief, sections 1–11 and Figures 1–4. Original Word attachment preserved separately."
+    },
+    {
+      "id": "cnsc",
+      "title": "Darlington New Nuclear Project",
+      "publisher": "Canadian Nuclear Safety Commission",
+      "date": "Updated August 25, 2026",
+      "url": "https://www.cnsc-ccsn.gc.ca/eng/reactors/new-reactor-power-plant-projects/new-reactor-power-plant-facilities/darlington-new-nuclear-project/",
+      "locator": "Current status, licensing, regulatory hold points and March 2026 operating application."
+    },
+    {
+      "id": "opg",
+      "title": "Small modular reactors Darlington SMR",
+      "publisher": "Ontario Power Generation",
+      "date": "Current page checked September 13, 2026",
+      "url": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/",
+      "locator": "Summer 2026 construction progress, project facts, cost and schedule questions."
+    },
+    {
+      "id": "ontario",
+      "title": "Energy for Generations",
+      "publisher": "Government of Ontario",
+      "date": "2025 integrated energy plan",
+      "url": "https://www.ontario.ca/files/2025-07/mem-energy-for-generations-en-2025-07-18.pdf",
+      "locator": "Page 47: first-unit target and additional-unit 2033–2035 window. Pages 18 and 65: demand response and portfolio context."
+    },
+    {
+      "id": "opg-budget",
+      "title": "Q2 2025 Financial Results and Management Discussion",
+      "publisher": "Ontario Power Generation",
+      "date": "August 2025",
+      "url": "https://www.oeb.ca/sites/default/files/Q2-2025-OPG-PR-MDA-FS-FINAL.pdf",
+      "locator": "PDF page 18, printed MD&A page 12: C$20.9 billion scope, C$6.1 billion first unit plus C$1.6 billion common systems, and rate-regulated recovery."
+    },
+    {
+      "id": "asuega",
+      "title": "Techno economic analysis of advanced small modular nuclear reactors",
+      "publisher": "Anthony Asuega, Braden J Limb and Jason C Quinn, Applied Energy 334, 120669",
+      "date": "2023",
+      "url": "https://www.osti.gov/servlets/purl/2423972",
+      "locator": "Author manuscript pages 2 and 6: modeled plants, cost results and NOAK assumptions. Page 15: financial assumptions. DOI 10.1016/j.apenergy.2023.120669."
+    },
+    {
+      "id": "iea2026",
+      "title": "Key Questions on Energy and AI",
+      "publisher": "International Energy Agency",
+      "date": "2026",
+      "url": "https://iea.blob.core.windows.net/assets/3179f7f8-01f6-4dd6-bffa-c9f7b73f1dc9/KeyQuestionsonEnergyandAI.pdf",
+      "locator": "Printed pages 46–50: hourly matching, offtake announcements and generation mix. Pages 52 and 58: reliability and UPS storage."
+    },
+    {
+      "id": "iea-release",
+      "title": "Data centre electricity use surged in 2025 even with tightening bottlenecks",
+      "publisher": "International Energy Agency",
+      "date": "2026",
+      "url": "https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions",
+      "locator": "Conditional SMR offtake increased from 25 GW to 45 GW; storage supports rapid AI load swings."
+    },
+    {
+      "id": "doe-dc",
+      "title": "Clean Energy Resources to Meet Data Center Electricity Demand",
+      "publisher": "US Department of Energy",
+      "date": "2024-era resource overview, checked September 13, 2026",
+      "url": "https://www.energy.gov/oe/clean-energy-resources-meet-data-center-electricity-demand",
+      "locator": "Meeting Data Center Electricity Demand. Used for technology roles, not current tax-credit or funding-program availability."
+    },
+    {
+      "id": "orion",
+      "title": "First Made in USA Solar Plant Set to Power Google Data Centers",
+      "publisher": "US Department of Energy",
+      "date": "January 15, 2025",
+      "url": "https://www.energy.gov/policy/articles/first-made-usa-solar-plant-set-power-google-data-centers-boosting-local-economy-and",
+      "locator": "Orion I–III opening, 875 MW nameplate and supply through the Texas grid to help serve Google."
+    },
+    {
+      "id": "nuscale",
+      "title": "UAMPS and NuScale Power Agree to Terminate the Carbon Free Power Project",
+      "publisher": "NuScale Power and UAMPS",
+      "date": "November 8, 2023",
+      "url": "https://www.nuscalepower.com/press-releases/2023/utah-associated-municipal-power-systems-and-nuscale-power-agree-to-terminate-the-carbon-free-power-project",
+      "locator": "Insufficient expected subscription to proceed. Historical example, not a forecast that all SMRs will fail."
+    },
+    {
+      "id": "fission",
+      "title": "Fission and Fusion What is the Difference",
+      "publisher": "US Department of Energy",
+      "date": "April 1, 2021",
+      "url": "https://www.energy.gov/ne/articles/fission-and-fusion-what-difference",
+      "locator": "Distinct nuclear processes; uranium use in fission."
+    },
+    {
+      "id": "uranium",
+      "title": "Uranium 2024 Resources Production and Demand",
+      "publisher": "OECD Nuclear Energy Agency and IAEA",
+      "date": "2025 publication",
+      "url": "https://www.oecd-nea.org/jcms/pl_103179/uranium-2024-resources-production-and-demand",
+      "locator": "Uranium market and reactor-demand context. Do not infer project-specific SMR delivery from aggregate fuel forecasts."
+    },
+    {
+      "id": "nrc",
+      "title": "GVH BWRX 300",
+      "publisher": "US Nuclear Regulatory Commission",
+      "date": "Current page checked September 13, 2026",
+      "url": "https://www.nrc.gov/reactors/new-reactors/advanced/who-were-working-with/pre-application-activities/bwrx-300",
+      "locator": "Approximately 300 MWe water-cooled natural-circulation design with passive safety."
+    },
+    {
+      "id": "fuel",
+      "title": "BWRX 300 Fuel Information",
+      "publisher": "GE Vernova Hitachi",
+      "date": "June 2025",
+      "url": "https://www.gevernova.com/content/dam/gepower-new/global/en_US/images/gas-new-site/en/bwrx-300/fact-sheets/BWRX-300-fuel%20Info-VernovaHitachi-Letter-R2.pdf",
+      "locator": "GNF2 commercial fuel platform. Vendor evidence; not independent proof of whole-plant economics."
+    },
+    {
+      "id": "backup",
+      "title": "The Road to Resilience with Rooftop Solar",
+      "publisher": "US Department of Energy",
+      "date": "Checked September 13, 2026",
+      "url": "https://www.energy.gov/cmei/systems/articles/road-resilience-rooftop-solar",
+      "locator": "Grid-connected solar and appropriately configured storage backup."
+    }
+  ],
+  "sections": [
+    {
+      "heading": "Main conclusion",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The defensible Prosper position is to reject premature claims of SMR affordability, readiness and household relevance, while recognizing that a real industrial use case may emerge. Darlington is a genuine construction project. It does not yet demonstrate operating cost, a repeatable construction schedule or a commercially successful fleet."
+        },
+        {
+          "type": "p",
+          "text": "The September 13 research brief largely agrees with the near-term solar position. Its recommendations say to deploy solar, storage and grid improvements now and not let SMR planning delay them. Its stronger claims about future economics and adoption need more evidence, and its central cost comparison contains a material first-of-a-kind versus mature-production error.",
+          "refs": [
+            "brief"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Evidence checked through September 13, 2026. Statements below distinguish observed status, published targets, calculations and analytical judgments. No evidence can make a claim about all future SMRs certain. The burden is to justify the specific project, price, delivery date and service being proposed."
+        }
+      ]
+    },
+    {
+      "heading": "Darlington status and the screenshot",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Confirmed status: the Canadian Nuclear Safety Commission lists one unit under construction. A construction licence was issued in April 2025. The foundation-related regulatory hold point was lifted on March 30, 2026. OPG applied in March 2026 for a 20-year operating licence; the regulator describes that application as awaiting a Commission decision after a public hearing. Construction permission is therefore not an operating licence.",
+          "refs": [
+            "cnsc"
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Item",
+            "What the evidence establishes"
+          ],
+          "widths": [
+            2.05,
+            4.45
+          ],
+          "rows": [
+            [
+              "First unit",
+              "300 MWe. OPG targets grid connection by the end of 2030. This is a planning target, not delivered electricity."
+            ],
+            [
+              "Full four-unit site",
+              "1,200 MWe if all four units are completed. Ontario's 2025 plan places the additional units in 2033–2035, subject to approvals."
+            ],
+            [
+              "Screenshot home equivalent",
+              "About 1.2 million homes corresponds to all four units, not the first unit or present production."
+            ],
+            [
+              "Screenshot employment",
+              "3,700 average jobs per year over the modeled 65-year construction and operating period. Not a current permanent staffing count."
+            ],
+            [
+              "Screenshot GDP",
+              "C$35.1 billion is an Ontario economic-impact projection across deployment and operation. It is not a customer electricity price or net investment return."
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The screenshot's home, employment and GDP figures are consistent with OPG's presentation when their qualifications are retained. Ontario's separate C$38.5 billion national GDP estimate has a different geographic scope from the screenshot's Ontario-only figure; these should not be presented as a contradiction.",
+          "refs": [
+            "opg",
+            "ontario"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Counter: This is evidence of a serious first project and a conditional four-unit plan. To establish commercial success, show commissioning, sustained generation, final cost and subsequent units actually delivering the expected savings."
+        },
+        {
+          "type": "p",
+          "text": "Why it matters: an economic-impact model counts activity generated by spending. A capital-intensive project can create jobs and GDP while still producing expensive electricity. A ratepayer comparison needs total discounted system costs, alternatives and the allocation of overruns, not GDP divided by construction cost."
+        }
+      ]
+    },
+    {
+      "heading": "The strongest error in the research brief",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Figure 2 and section 3.1 label US$80.6–89.6/MWh as first-of-a-kind costs. The matching 2023 paper instead assumes nth-of-a-kind experience, omits first-project overruns and licensing costs, and assumes regulatory approval before construction. It uses January 2021 dollars. That reverses the chart's claimed cost basis.",
+          "refs": [
+            "brief",
+            "asuega"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "FOAK means the first plant of a kind, with first-project risks. NOAK means later, repeated production after learning. Using a mature-production assumption as the initial cost, then promising a further reduction from repetition, risks counting the same benefit twice."
+        },
+        {
+          "type": "p",
+          "text": "The models are roughly 1 GW multi-reactor configurations, not Darlington's single BWRX-300. They are not observed commercial prices."
+        },
+        {
+          "type": "p",
+          "text": "Counter: relabel the range and recalculate first-project economics before presenting it as a starting price with learning benefits still to come."
+        },
+        {
+          "type": "p",
+          "text": "Limit: this error does not prove future SMRs cannot compete. It does mean the brief has not demonstrated the first-project economics it labels. A fair replacement compares common currencies and dollar years, financing, capacity factors, incentives and equivalent reliability. A solar energy-only LCOE is not the cost of a 24-hour firm supply portfolio."
+        }
+      ]
+    },
+    {
+      "heading": "Darlington budget and the claimed learning curve",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "OPG's published budget is C$20.9 billion for the four-unit project, including interest, escalation and contingency. Its first-unit estimate is C$6.1 billion, plus C$1.6 billion for systems shared across all four units. C$7.7 billion therefore combines the first unit with common infrastructure; it is not a unit-specific baseline for comparing repeated units.",
+          "refs": [
+            "opg-budget"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The brief pairs a C$4.1 billion fourth unit with the C$7.7 billion first-unit package and calls the difference about 33%. Using the brief's own numbers, that reduction is 46.8%. A reduction from C$6.1 billion to C$4.1 billion is 32.8%, which explains where approximately 33% comes from. The arithmetic and allocation must be kept consistent. This review uses C$4.1 billion as the brief's stated comparison, not as a newly audited Unit 4 contract price.",
+          "refs": [
+            "brief"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Counter: separate the cost of shared infrastructure from genuine manufacturing and construction learning, then show realized later-unit costs. A forecast cost reduction is a hypothesis to test, not a saving already delivered."
+        },
+        {
+          "type": "p",
+          "text": "Why it matters: Darlington's common infrastructure, experienced operator and existing nuclear site may make it an unusually favorable place to launch the technology. Success there would be important, but it would not automatically establish the same price at a new industrial site elsewhere."
+        },
+        {
+          "type": "p",
+          "text": "Do not compare the all-in Canadian project budget directly with an American solar overnight construction-cost figure. Nor does the budget, by itself, establish a retail rate or levelized electricity cost. OPG describes the project as rate-regulated, with recovery subject to the Ontario Energy Board's process.",
+          "refs": [
+            "opg-budget"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Industrial power density and solar competition",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The valid point: concentrated, largely weather-independent generation can be valuable where land is constrained and demand persists around the clock. Rejecting that physical advantage would weaken the response. A dense load, however, does not require every generator serving it to fit inside the same footprint."
+        },
+        {
+          "type": "p",
+          "text": "Concrete counterexample: DOE describes the 875 MW Orion solar projects in Texas as supplying the grid and helping serve Google's nearby data centers. The site opened in October 2024. This supports solar's real industrial role; 875 MW is nameplate power, not a claim of continuous 875 MW output or 24-hour solar-only service.",
+          "refs": [
+            "orion"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Counter: high demand density is a siting constraint, not proof that a particular reactor is the lowest-cost way to meet the load. Compare an SMR plus its backup and connection requirements with a feasible portfolio of remote and local generation, storage, demand flexibility and grid access."
+        },
+        {
+          "type": "p",
+          "text": "Why it matters: solar, batteries and SMRs are not identical products, but they can compete for parts of the same utility procurement, capital budget and clean-energy contract. A portfolio may combine them; it does not follow that they never compete. The fact that a data center needs firm power does not make its daytime energy or fast-response needs disappear."
+        },
+        {
+          "type": "p",
+          "text": "The brief's Figure 1 pools nuclear including SMRs and uses broad illustrative land-density ranges. The underlying direction is plausible. The displayed ratios are not a site-specific BWRX-300 result. Ask whether land means direct occupation, total project boundary, fuel-cycle footprint or shared-use land, and whether output is annual-average or nameplate.",
+          "refs": [
+            "brief"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Reliability requires more than a reactor",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "The brief's illustrative 300 MW plant at a 90% capacity factor produces about 2.37 TWh annually; that arithmetic is sound. Capacity factor is annual energy divided by maximum possible annual energy. It is not a promise of uninterrupted service. Maintenance, refuelling, trips and faults must still be covered.",
+          "refs": [
+            "brief"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A single 300 MW unit's outage is a 300 MW contingency for the supply plan. That does not make smaller reactors worse than larger reactors: a smaller unit can reduce the size of an individual contingency. It does mean critical loads need a documented strategy for losing any supplying unit."
+        },
+        {
+          "type": "p",
+          "text": "The IEA's 2026 analysis describes battery UPS systems as important in both grid-connected and off-grid data centers. It also identifies rapid AI demand swings as a reason for storage. Firm generation and fast power-quality support are different services.",
+          "refs": [
+            "iea2026",
+            "iea-release"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Counter: show the N minus one plan, backup duration and delivered-power price after covering outages. A nuclear supply agreement is not a substitute for an uninterruptible-power system."
+        },
+        {
+          "type": "p",
+          "text": "Limit: this is not an argument that an ordinary four-hour battery can cheaply replace a reactor through every long weather shortfall. Solar portfolios also need hourly and seasonal reliability analysis. Match both alternatives to the same load, outage tolerance and clean-energy target."
+        }
+      ]
+    },
+    {
+      "heading": "Five year forecasts and market evidence",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Five years from this assessment is roughly 2031. Meeting Darlington's first-unit target would be an important result within that window. Ontario's planning window for the remaining units extends to 2033–2035. A claim of broad success by 2031 therefore needs evidence beyond that one first-unit schedule.",
+          "refs": [
+            "ontario"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The evidence for genuine industry interest is substantial. The IEA reports that conditional SMR offtake associated with data centers increased from 25 GW at the end of 2024 to 45 GW in 2026. Conditional agreements are a meaningful demand signal, but not operating capacity, completed financing or guaranteed delivery.",
+          "refs": [
+            "iea-release"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "There is also relevant contrary experience: NuScale and UAMPS ended the Carbon Free Power Project in November 2023 because sufficient customer subscription appeared unlikely. That is a direct SMR commercial example. It does not prove Darlington will fail, but it demonstrates why engineering progress and market interest do not eliminate customer and financing risk.",
+          "refs": [
+            "nuscale"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Counter: define big deal in operating megawatts, delivered MWh, signed unconditional obligations, and cost. An undefined prediction cannot be tested. Treat 2030s deployment as a scenario with milestones, not as an established outcome."
+        },
+        {
+          "type": "p",
+          "text": "Figure 4 of the brief explicitly uses a 0–10 illustrative adoption-interest index. It supplies no reproducible scoring method, underlying observations, probability calibration or uncertainty interval. It should be read as the author's view, not market evidence. The 2032–2035 table and chart are likewise conditional scenarios, and their starting dates should not replace official project milestones.",
+          "refs": [
+            "brief"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "The IEA's updated 2026 outlook still projects renewables providing more than one-third of electricity generation serving data centers in 2030. Its nuclear totals include existing nuclear rather than representing an SMR fleet. These are forecasts too, not guarantees.",
+          "refs": [
+            "iea2026"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Interviews, uranium and technology categories",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Personal conversations can identify useful engineering leads. An interviewee's credentials or investment do not establish a plant's construction cost, commercial price, financing or operation date. A financial interest is a reason to examine incentives and corroborate claims, not proof that the person is dishonest."
+        },
+        {
+          "type": "p",
+          "text": "Fusion research and Darlington's fission technology must remain separate. Fusion joins light nuclei; the BWRX-300 is a water-cooled fission reactor. Progress in one research program does not validate the other's project economics.",
+          "refs": [
+            "fission",
+            "nrc"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Uranium market analysis covers reactor-related demand across the nuclear sector. A rising forecast can reflect existing fleets, conventional reactors and fuel-market expectations. It does not isolate future SMR operating capacity. Establishing an SMR-specific inference requires separating those sources of demand and tying them to named projects.",
+          "refs": [
+            "uranium"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Counter: which independently checkable finding from those conversations changes the cost, licence, fuel availability, construction schedule or signed commercial obligations for this specific design?"
+        },
+        {
+          "type": "p",
+          "text": "Keep criticisms design-specific. GE's BWRX-300 materials identify the established GNF2 fuel platform. Problems with an exotic fuel supply chain for a different reactor cannot automatically be assigned to Darlington. Likewise, a successful BWRX-300 would not prove the economics of every molten-salt, high-temperature, microreactor or fusion concept.",
+          "refs": [
+            "fuel"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "The household and grid argument for Prosper",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "An SMR connected to the wider grid may contribute useful electricity. It does not repair a household's failed inverter, restore lost solar production or independently maintain service across a damaged local distribution line. Future grid generation can influence prices and emissions, but it does not establish the economics of a particular home upgrade."
+        },
+        {
+          "type": "p",
+          "text": "Properly configured solar and storage can support selected home loads during an outage. Ordinary grid-tied solar usually disconnects when grid power fails; backup needs the right inverter, controls, wiring and sufficient stored energy. No blanket whole-home or multi-day backup promise follows from owning panels.",
+          "refs": [
+            "backup"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "A defensible Prosper recommendation is to review production, monitoring alerts and bills; identify faults through qualified service; and evaluate storage against the actual tariff, export rules and required loads. Confirm costs, warranties and who responds to problems. This is a concrete household decision even if a reactor eventually contributes power elsewhere."
+        },
+        {
+          "type": "p",
+          "text": "The phrase both and is reasonable as a planning principle. It is not permission to fund every project without comparison. Investment choices still require evidence on timing, avoided emissions, reliability and cost. DOE's data-center guidance identifies solar, wind, batteries and efficiency as rapidly scalable options while also recognizing a possible longer-term role for nuclear and geothermal.",
+          "refs": [
+            "doe-dc"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Counter: if SMRs are a future industrial option rather than a current household solution, that supports the case for acting on a suitable solar and storage plan now. Keep the long-term option conditional and make today's equipment accountable for performance."
+        }
+      ]
+    },
+    {
+      "heading": "Claims Prosper should not make",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Do not say SMRs are imaginary or that Darlington is only research. The regulator confirms construction.",
+            "Do not claim that power density has no value, that nuclear is inherently high-carbon, or that useful industrial SMR deployment is impossible.",
+            "Do not claim one solar megawatt provides the same annual energy or reliability as one nuclear megawatt.",
+            "Do not use Vogtle alone as proof of BWRX-300 economics. It is a different reactor and project; the direct SMR record and this project's own budget are better evidence.",
+            "Do not treat first power as proof of repeatable fleet economics, or conditional orders as a delivered fleet.",
+            "Do not imply every SMR uses the same fuel, has the same safety characteristics, or serves high-temperature process heat equally well.",
+            "Do not sell a battery as a repair for underperforming solar or guarantee savings without the household's actual numbers."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "These limits protect the credibility of the argument. The case for disciplined solar investment does not require proving that every other technology is worthless."
+        }
+      ]
+    },
+    {
+      "heading": "Questions that make the claim testable",
+      "blocks": [
+        {
+          "type": "list",
+          "items": [
+            "Which exact reactor design and site are being proposed, and what operating and construction licences are in force?",
+            "What is the probability-weighted date for dependable commercial supply, rather than first commissioning power?",
+            "What is the all-in price in a stated currency and dollar year, including financing, shared infrastructure, operating costs and applicable waste obligations?",
+            "Does the cost estimate assume first-of-a-kind delivery or nth-of-a-kind learning? Which costs are excluded?",
+            "Who bears delay and overrun risk, and how much customer commitment is unconditional rather than an option or memorandum?",
+            "What measured operating record supports availability and maintenance assumptions?",
+            "How is the load supplied during a reactor outage, and what does that backup add to cost?",
+            "What realistic alternative portfolio meets the same hourly service, emissions and reliability requirements?",
+            "Which observed milestone would cause the forecast or funding decision to be revised?"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Reply suitable for sending",
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Zackary, I read the brief and the Darlington material. I agree that dense industrial loads are a legitimate SMR use case to investigate. Your brief also supports our immediate point: don't delay solar, storage or grid improvements."
+        },
+        {
+          "type": "p",
+          "text": "The distinction I'd insist on is credible construction versus demonstrated economics. Darlington currently has one unit under construction, and its operating-licence application is still under review. OPG targets the first unit's grid connection by the end of 2030; the additional units are planned for 2033–2035, subject to approvals. The 1.2-million-homes headline is for all four, not power being delivered today."
+        },
+        {
+          "type": "p",
+          "text": "There is also a concrete correction needed in the brief: the paper behind the US$80.6–89.6/MWh chart assumes nth-of-a-kind experience and excludes first-of-a-kind licensing costs and overruns. It isn't the first-unit price the chart labels it as."
+        },
+        {
+          "type": "p",
+          "text": "Power density is an advantage, but it doesn't settle delivered cost or eliminate backup. Solar is already serving industrial demand through the grid, and batteries still handle reliability and fast load changes regardless of the bulk power source."
+        },
+        {
+          "type": "p",
+          "text": "I'm comfortable watching Darlington. I'm not comfortable using a conditional future project to weaken a present-day solar decision. Show the completed plant, actual operating cost and repeat-unit results. Until then, Prosper's position is to prioritize solar performance, storage that fits the real load and tariff, and accountable service."
+        },
+        {
+          "type": "p",
+          "text": "Supporting links for this reply: the CNSC project status, OPG's schedule, Ontario's energy plan and the original cost paper.",
+          "refs": [
+            "cnsc",
+            "opg",
+            "ontario",
+            "asuega"
+          ]
+        }
+      ]
+    }
+  ]
+}

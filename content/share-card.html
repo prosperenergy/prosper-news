@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=1200,initial-scale=1">
+<title>Prosper News — Now Live</title>
+<style>
+@font-face{font-family:Fander;src:url('{{DISPLAY_FONT}}') format('woff2');font-display:block}
+@font-face{font-family:Geist;src:url('{{BODY_FONT}}') format('woff2');font-weight:100 900;font-display:block}
+*{box-sizing:border-box}body{margin:0;width:1200px;height:630px;background:#f9f4ed;color:#141414;font-family:Geist,Arial,sans-serif;overflow:hidden}
+.top{position:absolute;left:48px;top:30px;width:624px;height:88px;display:flex;align-items:center;gap:24px}
+.logo{width:174px;height:75px;object-fit:contain}.name{border-left:1px solid #d9d3ca;padding-left:24px;font:400 31px/1 Fander,Arial,sans-serif;letter-spacing:.02em}
+.live{margin-left:auto;font-size:13px;font-weight:850;letter-spacing:.09em;background:#f4ff00;padding:13px 15px;border-radius:5px;white-space:nowrap}
+.rule{position:absolute;top:137px;left:48px;width:624px;height:1px;background:#d9d3ca}
+h1{position:absolute;left:48px;top:164px;width:660px;font:400 74px/1.09 Fander,Arial,sans-serif;letter-spacing:-.035em;margin:0;text-transform:uppercase}h1 span{display:block}h1 .blue{color:#0b5cff}
+.deck{position:absolute;left:48px;top:430px;width:624px;margin:0;font-size:25px;line-height:1.5;font-weight:600}.sub{position:absolute;left:48px;top:476px;width:624px;margin:0;font-size:18px;line-height:1.5;color:#625e58}
+.address{position:absolute;left:48px;bottom:42px;font-size:20px;font-weight:750;color:#0b5cff;letter-spacing:-.015em}
+.photo{position:absolute;left:720px;top:30px;width:450px;height:570px;border-radius:12px;overflow:hidden;background:#d9d3ca}.photo img{width:100%;height:100%;object-fit:cover;object-position:59% center}.photo:after{content:"";position:absolute;inset:58% 0 0;background:linear-gradient(transparent,rgba(0,0,0,.72))}
+.stamp{position:absolute;left:24px;bottom:64px;color:white;font:400 30px/1.12 Fander,Arial,sans-serif;text-transform:uppercase;z-index:1}.caption{position:absolute;left:24px;bottom:26px;color:#fff;font-size:10px;letter-spacing:.055em;font-weight:650;z-index:1}
+</style></head>
+<body>
+<div class="top"><img class="logo" src="{{LOGO}}" alt="Prosper"><div class="name">NEWS</div><div class="live">NOW LIVE</div></div>
+<div class="rule"></div>
+<h1><span>Solar is</span><span class="blue">the smarter</span><span class="blue">bet.</span></h1>
+<p class="deck">Working solar. Smarter storage.</p>
+<p class="sub">The research-backed Prosper point of view.</p>
+<div class="address">news.prospershield.io ↗</div>
+<div class="photo"><img src="{{HERO}}" alt="Illustrative solar installation"><div class="stamp">Your roof.<br>Your power.</div><div class="caption">ILLUSTRATIVE SOLAR INSTALLATION</div></div>
+</body></html>

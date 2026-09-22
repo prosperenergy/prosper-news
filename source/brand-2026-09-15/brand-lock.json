@@ -1,0 +1,24 @@
+{
+  "version": "2026-07-20",
+  "status": "locked",
+  "brandBlue": "#0B5CFF",
+  "rules": {
+    "headerAndFooter": "Use the official Prosper script wordmark only.",
+    "faviconAndEmblem": "Use the official bolt favicon as a separate asset.",
+    "generatedLogos": "Never use AI-generated, redrawn, traced, or improvised logo assets."
+  },
+  "assets": {
+    "wordmark": {
+      "path": "/assets/brand/official/prosper-wordmark-official.png",
+      "sha256": "a5c3a1c3bd3e12eebf44476cd7a9f77410e786d4ce21e91c4c97f302a8a8ca69"
+    },
+    "favicon": {
+      "path": "/assets/brand/official/prosper-bolt-favicon-official.png",
+      "sha256": "a222de4787122c258ba06b4e606d35fbafaa84196b22def3913c0112bb4f842c"
+    },
+    "faviconIco": {
+      "path": "/favicon.ico",
+      "sha256": "6c8af556be3b00d62b7ae5ef8935c73d2ed4943399acf7a7c1ca86ac299c9c1c"
+    }
+  }
+}

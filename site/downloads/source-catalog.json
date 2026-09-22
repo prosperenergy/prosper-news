@@ -1,0 +1,376 @@
+{
+  "publisher": "Prosper News",
+  "updated": "2026-09-15",
+  "sources": [
+    {
+      "id": "vogtle",
+      "title": "Vogtle Unit 4 begins commercial operation",
+      "publisher": "U.S. EIA",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=61963",
+      "type": "Government data",
+      "date": "2024-05-01",
+      "note": "Completed large-reactor project, not an SMR. Cost and schedule history; electricity is now being generated.",
+      "checked": "2026-09-14"
+    },
+    {
+      "id": "nuscale-price",
+      "title": "Carbon Free Power Project updated price target",
+      "publisher": "NuScale",
+      "url": "https://www.nuscalepower.com/press-releases/2023/nuscale-reaches-key-milestone-in-the-development-of-the-carbon-free-power-project",
+      "type": "Developer statement",
+      "date": "2023-01-09",
+      "note": "US$89/MWh was a project target with financing assumptions, not an operating plant price.",
+      "checked": "2026-09-14"
+    },
+    {
+      "id": "nuscale-cancel",
+      "title": "Carbon Free Power Project termination",
+      "publisher": "NuScale / UAMPS",
+      "url": "https://www.nuscalepower.com/press-releases/2023/utah-associated-municipal-power-systems-and-nuscale-power-agree-to-terminate-the-carbon-free-power-project",
+      "type": "Developer statement",
+      "date": "2023-11-08",
+      "note": "Insufficient expected customer subscription. A failed project does not prove every SMR must fail.",
+      "checked": "2026-09-14"
+    },
+    {
+      "id": "darlington",
+      "title": "Darlington SMR: budget and schedule",
+      "publisher": "Ontario Power Generation",
+      "url": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/",
+      "type": "Operator statement",
+      "date": "Current project page",
+      "note": "C$6.1B first unit plus C$1.6B shared infrastructure; C$20.9B programme. First grid connection targeted for end-2030.",
+      "checked": "2026-09-14"
+    },
+    {
+      "id": "canada",
+      "title": "Darlington New Nuclear Project",
+      "publisher": "Government of Canada",
+      "url": "https://www.canada.ca/en/privy-council/major-projects-office/projects/national/darlington.html",
+      "type": "Government project record",
+      "date": "2026 update",
+      "note": "Project investment and intended output; not completed operating economics.",
+      "checked": "2026-09-14"
+    },
+    {
+      "id": "cnsc",
+      "title": "Darlington licensing and construction status",
+      "publisher": "Canadian Nuclear Safety Commission",
+      "url": "https://www.cnsc-ccsn.gc.ca/eng/reactors/new-reactor-power-plant-projects/new-reactor-power-plant-facilities/darlington-new-nuclear-project/",
+      "type": "Regulator",
+      "date": "2026-08-25",
+      "note": "Construction permission is not an operating licence. Status checked September 13.",
+      "checked": "2026-09-13"
+    },
+    {
+      "id": "summer",
+      "title": "V.C. Summer feasibility milestones",
+      "publisher": "Santee Cooper",
+      "url": "https://newsroom.santeecooper.com/news/santee-cooper-and-brookfield-asset-management-mou-progresses-key-milestones-met/",
+      "type": "Operator statement",
+      "date": "2026-06-30",
+      "note": "Completion feasibility for unfinished Units 2 and 3. Existing Unit 1 is a separate operating asset.",
+      "checked": "2026-09-14"
+    },
+    {
+      "id": "meta",
+      "title": "Nuclear energy agreements for AI",
+      "publisher": "Meta",
+      "url": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership/",
+      "type": "Purchaser statement",
+      "date": "2026-01-09",
+      "note": "Up to 6.6 GW by 2035 includes new and existing nuclear, not a near-term delivered SMR fleet.",
+      "checked": "2026-09-14"
+    },
+    {
+      "id": "iea-nuclear",
+      "title": "The Path to a New Era for Nuclear Energy",
+      "publisher": "IEA",
+      "url": "https://www.iea.org/reports/the-path-to-a-new-era-for-nuclear-energy",
+      "type": "Scenario analysis",
+      "date": "2025",
+      "note": "Deployment scenarios depend on financing, policy, construction and cost reductions.",
+      "checked": "2026-09-14"
+    },
+    {
+      "id": "irena",
+      "title": "Renewable Power Generation Costs in 2025",
+      "publisher": "IRENA",
+      "url": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2026/Jul/IRENA_TEC_RPGC_2025_Executive_summary_2026.pdf",
+      "type": "Cost dataset",
+      "date": "2026-07",
+      "note": "New utility-scale solar global weighted LCOE: US$44/MWh in 2025. Not a rooftop quote or an all-hour firm power price.",
+      "checked": "2026-09-14"
+    },
+    {
+      "id": "battery-history",
+      "title": "Lithium-ion technology improvement and cost decline",
+      "publisher": "Ziegler & Trancik",
+      "url": "https://doi.org/10.1039/D0EE02681F",
+      "type": "Peer-reviewed research",
+      "date": "2021",
+      "note": "Historical cell prices, not the installed retail price of a complete home system.",
+      "checked": "2026-09-14"
+    },
+    {
+      "id": "battery-drivers",
+      "title": "Drivers of lithium-ion battery cost decline",
+      "publisher": "Ziegler, Song & Trancik",
+      "url": "https://doi.org/10.1039/D1EE01313K",
+      "type": "Peer-reviewed research",
+      "date": "2021",
+      "note": "Research, scale and manufacturing improvements; future prices remain uncertain.",
+      "checked": "2026-09-14"
+    },
+    {
+      "id": "queues",
+      "title": "Queued Up: 2026 edition",
+      "publisher": "Berkeley Lab",
+      "url": "https://eta.lbl.gov/publications/queued-2026-edition-characteristics",
+      "type": "Queue dataset",
+      "date": "2026",
+      "note": "Proposed transmission-interconnection projects, not all built or ready. GW is power, not storage duration.",
+      "checked": "2026-09-14"
+    },
+    {
+      "id": "permits",
+      "title": "Permitting and inspection for rooftop solar",
+      "publisher": "U.S. DOE",
+      "url": "https://www.energy.gov/cmei/systems/permitting-and-inspection-rooftop-solar",
+      "type": "Technical guidance",
+      "date": "Living guidance",
+      "note": "Local permits, inspections and utility processes still apply to rooftop projects.",
+      "checked": "2026-09-14"
+    },
+    {
+      "id": "chernobyl",
+      "title": "Chernobyl health assessment",
+      "publisher": "WHO / Chernobyl Forum",
+      "url": "https://www.who.int/news/item/05-09-2005-chernobyl-the-true-scale-of-the-accident",
+      "type": "Health assessment",
+      "date": "2005-09-05",
+      "note": "The up-to-4,000 figure is a projected eventual toll among higher-exposed groups, not an observed death count.",
+      "checked": "2026-09-14"
+    },
+    {
+      "id": "fukushima",
+      "title": "Fukushima report: questions and answers",
+      "publisher": "UNSCEAR",
+      "url": "https://www.unscear.org/unscear/en/areas-of-work/fukushima-report-faq.html",
+      "type": "Scientific assessment",
+      "date": "2020/2021 report",
+      "note": "No documented resident health effects directly attributable to radiation; distinguish displacement and psychological harms.",
+      "checked": "2026-09-14"
+    },
+    {
+      "id": "uranium",
+      "title": "Abandoned uranium mines cleanup",
+      "publisher": "U.S. EPA",
+      "url": "https://www.epa.gov/navajo-nation-uranium-cleanup/aum-cleanup",
+      "type": "Government environmental record",
+      "date": "Living cleanup record",
+      "note": "More than 500 abandoned mines on and near Navajo Nation. Legacy is not all attributable to proposed SMRs.",
+      "checked": "2026-09-14"
+    },
+    {
+      "id": "storage-basics",
+      "title": "Solar energy and storage basics",
+      "publisher": "U.S. DOE",
+      "url": "https://www.energy.gov/cmei/systems/solar-integration-solar-energy-and-storage-basics",
+      "type": "Technical guidance",
+      "date": "Living guidance",
+      "note": "Storage shifts energy. Design, duration, losses and operating purpose matter.",
+      "checked": "2026-09-14"
+    },
+    {
+      "id": "backup",
+      "title": "The road to resilience with rooftop solar",
+      "publisher": "U.S. DOE",
+      "url": "https://www.energy.gov/cmei/systems/articles/road-resilience-rooftop-solar",
+      "type": "Technical guidance",
+      "date": "Living guidance",
+      "note": "Grid-tied solar normally disconnects during outages; appropriate equipment enables backup.",
+      "checked": "2026-09-14"
+    },
+    {
+      "id": "seia",
+      "title": "Six million solar installations",
+      "publisher": "SEIA",
+      "url": "https://seia.org/research-resources/6-million-solar-installations/",
+      "type": "Industry dataset",
+      "date": "2026 milestone",
+      "note": "97% residential share; approximate installation-to-household proxy, not an exact homeowner census.",
+      "checked": "2026-09-13"
+    },
+    {
+      "id": "battery-price",
+      "title": "Installed home-battery prices",
+      "publisher": "EnergySage",
+      "url": "https://www.energysage.com/energy-storage/how-much-do-batteries-cost/",
+      "type": "Marketplace benchmark",
+      "date": "2026-07-13",
+      "note": "US$15,647 typical 13.5 kWh installed benchmark before incentives; not a Prosper quote; retrofits can cost more.",
+      "checked": "2026-09-13"
+    },
+    {
+      "id": "fx",
+      "title": "CAD per USD: September 11, 2026",
+      "publisher": "Bank of Canada",
+      "url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?start_date=2026-09-11&end_date=2026-09-11",
+      "type": "Exchange-rate observation",
+      "date": "2026-09-11",
+      "note": "C$1.3866 per US$1, used only to align currencies in the capital-allocation illustration.",
+      "checked": "2026-09-13"
+    },
+    {
+      "id": "vpp-test",
+      "title": "California virtual-power-plant dispatch test",
+      "publisher": "The Brattle Group",
+      "url": "https://www.brattle.com/wp-content/uploads/2025/08/Assessing-VPP-Performance-Impacts-of-a-Test-Event-in-California-1.pdf",
+      "type": "Operator-data analysis",
+      "date": "2025-08",
+      "note": "535 MW average for two hours on July 29, 2025; operator-supplied telemetry, not continuous output. Direct PDF may restrict automated access.",
+      "checked": "2026-09-13"
+    },
+    {
+      "id": "vpp",
+      "title": "Virtual power plants",
+      "publisher": "U.S. DOE",
+      "url": "https://www.energy.gov/edf/virtual-power-plants-projects",
+      "type": "Technical / scenario guidance",
+      "date": "Living guidance",
+      "note": "Aggregation and compensation models. Broad forecasts include flexible loads, not only batteries.",
+      "checked": "2026-09-13"
+    },
+    {
+      "id": "spending",
+      "title": "Household Energy Affordability",
+      "publisher": "IEA",
+      "url": "https://www.iea.org/reports/household-energy-affordability/executive-summary",
+      "type": "Expenditure analysis",
+      "date": "2026",
+      "note": "Global household electricity spending exceeded US$1T in 2024. Not a VPP revenue forecast.",
+      "checked": "2026-09-13"
+    },
+    {
+      "id": "health-us",
+      "title": "Cancer mortality and nuclear-plant proximity",
+      "publisher": "Alwadi et al., Nature Communications",
+      "url": "https://www.nature.com/articles/s41467-026-69285-4",
+      "type": "Peer-reviewed association study",
+      "date": "2026-02-23",
+      "note": "County-level proximity association; no direct radiation measurements and no causal conclusion.",
+      "checked": "2026-09-13"
+    },
+    {
+      "id": "health-workers",
+      "title": "INWORKS nuclear-worker cohort",
+      "publisher": "Richardson et al., BMJ",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37586731/",
+      "type": "Peer-reviewed cohort",
+      "date": "2023-08-16",
+      "note": "Dose association in monitored workers. A per-gray risk slope is not a blanket percentage risk for residents.",
+      "checked": "2026-09-13"
+    },
+    {
+      "id": "health-germany",
+      "title": "Childhood leukaemia near German plants",
+      "publisher": "KiKK researchers",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2696975/",
+      "type": "Peer-reviewed case-control analysis",
+      "date": "2008",
+      "note": "Under-five leukaemia association within 5 km; radiation causation was not established.",
+      "checked": "2026-09-13"
+    },
+    {
+      "id": "health-uk",
+      "title": "Childhood cancer near British nuclear installations",
+      "publisher": "Davies et al., International Journal of Epidemiology",
+      "url": "https://research-information.bris.ac.uk/en/publications/childhood-cancer-incidence-around-nuclear-installations-in-great-/",
+      "type": "Peer-reviewed population study",
+      "date": "2025",
+      "note": "No elevated incidence of studied childhood cancers in the 1995–2016 population. Important contrary evidence.",
+      "checked": "2026-09-13"
+    },
+    {
+      "id": "nci",
+      "title": "Nuclear accidents and cancer",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation/nuclear-accidents-fact-sheet",
+      "type": "Health guidance",
+      "date": "Living guidance",
+      "note": "Radiation risks and accident-related evidence; do not generalize accident dose to routine operation.",
+      "checked": "2026-09-13"
+    },
+    {
+      "id": "nrc-study",
+      "title": "Why the cancer-risk study effort ended",
+      "publisher": "U.S. NRC",
+      "url": "https://nrcpublicblog.wordpress.com/2015/10/06/",
+      "type": "Regulator explanation",
+      "date": "2015-10-06",
+      "note": "Documented research cancellation; not evidence that positive findings were secretly suppressed.",
+      "checked": "2026-09-13"
+    },
+    {
+      "id": "ul",
+      "title": "Residential energy-storage safety",
+      "publisher": "UL Solutions",
+      "url": "https://www.ul.com/services/safety-testing-residential-energy-storage-systems-ess",
+      "type": "Safety guidance",
+      "date": "Living guidance",
+      "note": "Certification, thermal-runaway testing, installation and applicable codes matter.",
+      "checked": "2026-09-13"
+    },
+    {
+      "id": "recycling",
+      "title": "Solar-panel recycling",
+      "publisher": "U.S. EPA",
+      "url": "https://www.epa.gov/hw/solar-panel-recycling",
+      "type": "Environmental guidance",
+      "date": "Living guidance",
+      "note": "Solar has end-of-life obligations too; neither solar nor batteries are impact-free.",
+      "checked": "2026-09-14"
+    },
+    {
+      "id": "waste",
+      "title": "High-level radioactive waste",
+      "publisher": "U.S. NRC",
+      "url": "https://www.nrc.gov/waste/high-level-waste",
+      "type": "Regulator guidance",
+      "date": "Living guidance",
+      "note": "Spent fuel requires shielding, management and long-term disposal arrangements.",
+      "checked": "2026-09-14"
+    },
+    {
+      "id": "carbon",
+      "title": "Profitable Emissions-Reducing Energy Storage",
+      "publisher": "Daniel J. Olsen & Daniel S. Kirschen",
+      "url": "https://arxiv.org/abs/1909.11034",
+      "type": "Research preprint",
+      "date": "2019",
+      "note": "Charging and dispatch choices determine operational emissions; economic arbitrage is not automatically carbon reduction.",
+      "checked": "2026-09-14"
+    },
+    {
+      "id": "nuscale-early",
+      "title": "UAMPS describes its earlier SMR price and schedule",
+      "publisher": "American Public Power Association",
+      "url": "https://www.publicpower.org/periodical/article/advancing-next-generation-nuclear-technology",
+      "type": "Utility interview",
+      "date": "2021",
+      "note": "Contemporaneous account of UAMPS leadership discussing the US$58/MWh target and 2029–2030 schedule.",
+      "checked": "2026-09-14"
+    },
+    {
+      "id": "smr-operating",
+      "title": "SMR deployment and operating examples",
+      "publisher": "IAEA",
+      "url": "https://www.iaea.org/sites/default/files/gc/gov-inf-2025-8-gc69-inf-4.pdf",
+      "type": "Intergovernmental assessment",
+      "date": "2025",
+      "note": "Documents commercial operation at Akademik Lomonosov and HTR-PM. These examples do not establish U.S. household economics.",
+      "checked": "2026-09-14"
+    }
+  ]
+}
