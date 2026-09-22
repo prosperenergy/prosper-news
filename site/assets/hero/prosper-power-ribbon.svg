@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract blue power ribbon on a warm cream background</title>
+  <desc id="desc">A modern abstract energy illustration for Prosper News.</desc>
+  <rect width="1200" height="900" rx="72" fill="#F9F4ED"/>
+  <circle cx="1035" cy="112" r="58" fill="#ffcf2e"/>
+  <circle cx="1035" cy="112" r="28" fill="#141414"/>
+  <path d="M-72 641C190 483 346 442 520 493c176 52 245 184 412 169 107-10 196-66 341-198" fill="none" stroke="#0B5CFF" stroke-width="104" stroke-linecap="round"/>
+  <path d="M-72 671C190 513 346 472 520 523c176 52 245 184 412 169 107-10 196-66 341-198" fill="none" stroke="#0746C4" stroke-width="18" stroke-linecap="round"/>
+  <path d="M-10 280c178-117 333-148 461-92 94 41 148 113 252 128 105 16 225-21 358-125" fill="none" stroke="#141414" stroke-opacity=".12" stroke-width="3" stroke-linecap="round" stroke-dasharray="3 22"/>
+  <path d="M782 160h176M870 104v176" stroke="#141414" stroke-opacity=".12" stroke-width="3" stroke-linecap="round"/>
+</svg>
