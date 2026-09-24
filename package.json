@@ -1,0 +1,11 @@
+{
+  "name": "prosper-news",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:viewer": "node scripts/build-battery-viewer.mjs",
+    "build": "npm run build:viewer && node scripts/build-knowledge-base.mjs --skip-share-image"
+  },
+  "dependencies": { "three": "0.180.0", "marked": "17.0.5" },
+  "devDependencies": { "esbuild": "0.25.10", "linkedom": "0.18.12" }
+}
