@@ -39,27 +39,6 @@ input { font-size: 16px; }
 .battery-options img { display: block; width: 100%; max-height: 180px; object-fit: contain; border-radius: 6px; background: var(--ink); }
 .battery-options p { margin: 12px 0 0; font-size: 14px; }
 .battery-options a { display: inline-flex; align-items: center; min-height: 48px; font-size: 14px; }
-.product-disclaimer { margin: 10px 0 0; color: var(--muted); font-size: 12px; line-height: 1.6; }
-.battery-viewer { padding: 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--white); }
-.viewer-heading { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 12px; }
-.viewer-heading h2 { font: 650 16px/1.4 Geist, sans-serif; margin: 0; letter-spacing: 0; }
-.viewer-heading>span { color: var(--muted); font-size: 11px; }
-.battery-switch { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
-.battery-switch button { padding: 10px 8px; border-radius: 8px; font-size: 13px; }
-.battery-switch button[aria-pressed=true] { background: var(--bright); border-color: var(--ink); color: var(--ink); }
-.battery-switch button:disabled { cursor: wait; }
-.viewer-stage { height: 260px; width: 100%; position: relative; touch-action: pan-y; cursor: grab; }
-.viewer-stage.is-dragging { cursor: grabbing; }
-.viewer-stage canvas { display: block; width: 100%; height: 100%; }
-.viewer-stage>img { display: block; width: 100%; height: 100%; object-fit: contain; }
-.viewer-name { font-weight: 650; font-size: 14px; text-align: center; margin: 0 0 12px; }
-.viewer-tools { display: grid; grid-template-columns: 48px minmax(88px, 1fr) 48px 48px; gap: 6px; }
-.viewer-tools button { padding: 8px 4px; border-radius: 8px; font-size: 14px; }
-.viewer-tools [data-viewer-reset] { font-size: 11px; }
-.viewer-tools [data-spin] { background: var(--blue); border-color: var(--blue); color: var(--white); }
-.viewer-tools [data-spin]:hover { background: var(--functional-blue); }
-.viewer-tools [data-spin][aria-pressed=true] { background: var(--bright); color: var(--ink); border-color: var(--ink); }
-.viewer-status { margin: 10px 0 0; font-size: 11px; text-align: center; color: var(--muted); min-height: 18px; }
 .watch-section { background: var(--white); color: var(--ink); border: 1px solid var(--line); border-radius: 12px; padding: 28px; margin: 0 0 32px; box-shadow: none; }
 .watch-section h2, .room-feature h2, .section-head h2, .position h2, .tool-banner h2 { font: 650 26px/1.25 Geist, sans-serif; letter-spacing: -.02em; margin: 0 0 10px; }
 .watch-section .section-head { margin-bottom: 20px; }
@@ -126,8 +105,6 @@ input { font-size: 16px; }
   .hero-watch { justify-content: center; }
   .hero .cta-reassurance { max-width: none; text-align: center; }
   .battery-image img { height: 208px; }
-  .battery-viewer { padding: 12px; }
-  .viewer-stage { height: 220px; }
   .battery-product figcaption { padding: 14px 16px; }
   .watch-section { padding: 20px 16px; margin-bottom: 24px; }
   .watch-grid { grid-template-columns: minmax(0, 1fr); gap: 20px; }
@@ -151,3 +128,15 @@ input { font-size: 16px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; animation: none !important; } }
 @media print { .battery-options, .watch-section, .cta, .footer { display: none; } .battery-hero { display: block; } .battery-image img { height: 180px; } }
+
+/* Real product photography and manufacturer specifications. */
+.battery-hero{grid-template-columns:minmax(0,1fr);gap:0;padding-bottom:24px}
+.battery-hero .dek{max-width:650px}
+.battery-catalog{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:0 0 32px}
+.battery-card{min-width:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff}
+.battery-card__photo{height:210px;padding:20px;background:#fff;display:grid;place-items:center}
+.battery-card__photo img{display:block;width:100%;height:100%;max-height:170px;object-fit:contain}
+.battery-card__copy{padding:16px 20px;border-top:1px solid var(--line)}
+.battery-card h2{font:650 18px/1.35 Geist,Arial,sans-serif;letter-spacing:0;margin:0 0 4px}
+.battery-card a{display:inline-flex;align-items:center;gap:8px;min-height:48px;font-size:14px}
+@media(max-width:600px){.battery-catalog{grid-template-columns:minmax(0,1fr);gap:12px}.battery-card{display:grid;grid-template-columns:104px minmax(0,1fr);align-items:center}.battery-card__photo{height:148px;padding:12px}.battery-card__photo img{max-height:124px}.battery-card__copy{border-top:0;padding:16px 12px}.battery-card h2{font-size:17px}.battery-card a{font-size:13px}}

@@ -1,0 +1,9 @@
+/* Shared Prosper destinations; no page content or form changes. */
+.prosper-network{display:block;position:relative;z-index:2;width:100%;padding:6px 16px;background:#f4f8fc;color:#141414;border-bottom:1px solid #d6e1ee;font-family:Geist,Arial,sans-serif;font-size:13px;line-height:1.3}
+.prosper-network__links{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:4px 8px;max-width:1160px;margin:0 auto;padding:0;list-style:none}
+.prosper-network a{display:flex;align-items:center;justify-content:center;min-height:44px;padding:8px 16px;border:1px solid transparent;border-radius:8px;color:#141414;text-decoration:none;font-weight:600;white-space:nowrap}
+.prosper-network a:hover{color:#1a5bad;background:#e7effa;text-decoration:underline;text-underline-offset:3px}
+.prosper-network a[aria-current="page"]{background:#e7effa;color:#1a5bad;border-color:#a9c6e7}
+.prosper-network a:focus-visible{outline:3px solid #1a5bad;outline-offset:2px}
+@media(max-width:480px){.prosper-network{padding:4px 8px;font-size:12px}.prosper-network__links{gap:0 2px}.prosper-network a{padding:8px 9px;min-height:44px}}
+@media print{.prosper-network{display:none}}
