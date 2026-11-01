@@ -1,0 +1,59 @@
+# .github/labeler.yml
+# Drives the BURTHA PR Labeler workflow (burtha-pr-labeler.yml).
+# Each key is a label name; the value lists glob patterns for changed files
+# that trigger it.  Uses actions/labeler@v5 syntax.
+#
+# Labels must exist in the repo before this can apply them.
+# Create missing labels via: Settings → Labels (or the GitHub API).
+
+documentation:
+  - changed-files:
+    - any-glob-to-any-file:
+      - "**/*.md"
+      - "wiki/**"
+      - "docs/**"
+      - ".github/ISSUE_TEMPLATE/**"
+      - ".github/PULL_REQUEST_TEMPLATE.md"
+      - "CONTRIBUTING.md"
+      - "SECURITY.md"
+      - "README.md"
+
+ci:
+  - changed-files:
+    - any-glob-to-any-file:
+      - ".github/workflows/**"
+      - ".github/dependabot.yml"
+      - ".github/copilot-setup-steps.yml"
+      - "netlify.toml"
+      - ".coderabbit.yaml"
+
+dependencies:
+  - changed-files:
+    - any-glob-to-any-file:
+      - "package.json"
+      - "package-lock.json"
+      - "requirements*.txt"
+      - "pyproject.toml"
+      - "setup.py"
+
+bug:
+  - changed-files:
+    - any-glob-to-any-file:
+      - "**/*.test.*"
+      - "**/*.spec.*"
+      - "**/__tests__/**"
+
+enhancement:
+  - changed-files:
+    - any-glob-to-any-file:
+      - "app/**"
+      - "components/**"
+      - "lib/**"
+      - "types/**"
+      - "gateway/**"
+
+burtha:
+  - head-branch:
+    - "^burtha/.*"
+    - "^burtha-.*"
+    - "^copilot/.*"
