@@ -1,7 +1,8 @@
+import {founderProfile} from './founder-profile.mjs';
 import {opportunitySources} from './source-room.mjs';
 export const updated = '2026-09-15';
 export const origin = 'https://news.prospershield.io';
-export const topics = ['Nuclear costs', 'Health & waste', 'Working solar', 'Battery storage', 'Power control', 'Prosper & TAG'];
+export const topics = ['Nuclear costs', 'Health & waste', 'Working solar', 'Battery storage', 'Power control', 'Prosper'];
 const source = (id, title, publisher, url, type, date, note, checked='2026-09-14') => ({id,title,publisher,url,type,date,note,checked});
 export const sources = [
 ...opportunitySources,
@@ -44,7 +45,8 @@ source('nuscale-early','UAMPS describes its earlier SMR price and schedule','Ame
 source('smr-operating','SMR deployment and operating examples','IAEA','https://www.iaea.org/sites/default/files/gc/gov-inf-2025-8-gc69-inf-4.pdf','Intergovernmental assessment','2025','Documents commercial operation at Akademik Lomonosov and HTR-PM. These examples do not establish U.S. household economics.'),
 ];
 export const articles = [
-{slug:'prosper-opportunity-source-room',title:'The Prosper opportunity: Source Room',dek:'Company milestones, Craig Stratton’s industry story and independent M&A coverage, with direct links to every original source.',topic:'Prosper & TAG',kind:'Source room',file:'source-room.md',sourceRoom:true,published:'2026-09-22',updated:'2026-09-22'},
+founderProfile,
+{slug:'prosper-opportunity-source-room',title:'The Prosper opportunity: Source Room',dek:'Company milestones, Craig Stratton’s industry story and independent M&A coverage, with direct links to every original source.',topic:'Prosper',kind:'Source room',file:'source-room.md',sourceRoom:true,published:'2026-09-22',updated:'2026-10-13'},
 {slug:'mini-nuclear-is-a-promise',title:'Mini nuclear is a promise. Your roof is a power plant.',dek:'Craig’s position, the project receipts, and the household decision that should not wait.',topic:'Nuclear costs',kind:'Founder research brief',file:'flagship.md',featured:true,author:'Craig Stratton',image:'/assets/a7f739063b2cca71.webp'},
 {slug:'nuclear-project-scorecard',title:'Show the plant. Show the price. Show the delivery.',dek:'Vogtle, NuScale, Darlington and V.C. Summer, with forecasts separated from results.',topic:'Nuclear costs',kind:'Project scorecard',file:'projects.md'},
 {slug:'nuclear-health-evidence',title:'Nuclear health claims deserve a closer look.',dek:'Cancer studies, radiation exposure and accidents: what the evidence supports, and what it does not.',topic:'Health & waste',kind:'Evidence review',file:'health.md'},
@@ -55,5 +57,5 @@ export const articles = [
 {slug:'fair-energy-comparisons',title:'The comparison is only useful if the units match.',dek:'Generation versus storage. Forecast versus result. Wholesale cost versus your electric bill.',topic:'Nuclear costs',kind:'Comparison guide',file:'comparisons.md'},
 {slug:'waste-and-water',title:'The obligation does not end when the power is sold.',dek:'Nuclear waste, uranium legacies, and why solar and battery recycling also belong in the plan.',topic:'Health & waste',kind:'Lifecycle guide',file:'waste.md'},
 {slug:'questions-and-answers',title:'The questions people ask at the kitchen table.',dek:'Direct answers on nighttime power, outages, SMRs, savings and the words used to sell energy.',topic:'Working solar',kind:'FAQ + glossary',file:'faq.md'},
-{slug:'be-the-one-they-follow',title:'Be the one they follow',dek:"From a first rooftop panel in 2007 to the next chapter in home energy, Craig Stratton shares what it takes to earn trust, build leaders, and create something people can count on.",topic:'Prosper & TAG',kind:'Founder letter',file:'founder-letter.md',founderLetter:true,author:'Craig Stratton',published:'2026-10-04',updated:'2026-10-04'},
+{slug:'be-the-one-they-follow',title:'Be the one they follow',dek:"From a first rooftop panel in 2007 to the next chapter in home energy, Craig Stratton shares what it takes to earn trust, build leaders, and create something people can count on.",topic:'Prosper',kind:'Founder letter',file:'founder-letter.md',founderLetter:true,author:'Craig Stratton',published:'2026-10-04',updated:'2026-10-04'},
 ];

@@ -1,42 +1,38 @@
 # The Prosper opportunity: Source Room
 
-Prosper News · Updated 2026-09-22
+Prosper News · Updated 2026-10-13
 
-Prosper’s opportunity brings together solar experience, homeowner relationships and the ambition to grow alongside The Awareness Group. This curated reading list puts the original sources within reach.
+The people, the milestones, and the work behind Prosper. Company updates and original coverage, together in one place.
 
-## The announcement
+## Our next chapter
 
-- [TAG’s original acquisition announcement](https://www.newsfilecorp.com/release/278281)
-- [Nasdaq’s syndicated copy](https://www.nasdaq.com/press-release/awareness-group-acquires-prosper-energy-expanding-epc-and-sales-capabilities)
-- [Yahoo Finance’s syndicated copy](https://finance.yahoo.com/news/awareness-group-acquires-prosper-energy-120000228.html)
+Prosper has acquired The Awareness Group, BLUE Solar, and The Destiny Group.
 
-## Independent deal coverage
+Company statement from Craig Stratton, Founder and CEO of Prosper. Published October 13, 2026. [Company update](https://news.prospershield.io/guides/prosper-opportunity-source-room/#company-update).
 
-- [Cook M&A: December 2025 energy deals](https://cookma.com/app/uploads/2026/01/PE-Deals-Energy-December-2025.pdf#page=2)
-- [Seale & Associates: 2025 HVACR review](https://www.sealeassociates.com/hubfs/2025%20Annual%20HVACR%20Report.pdf?hsLang=en#page=13)
-- [Origin Merchant Partners: Q4 2025 review](https://www.originmerchant.com/wp-content/uploads/2026/03/Origin-Q4-2025-MA-Review-on-HVACR.pdf)
-- [PrivSource transaction record](https://www.privsource.com/acquisitions/deal/the-awareness-group-acquires-prosper-energy-B6SqRy)
+## The original announcement
 
-## People and perspective
+[Prosper Energy: the December 2025 announcement](https://www.newsfilecorp.com/release/278281).
 
-- [Craig Stratton featured in Powur’s campaign material](https://www.sec.gov/Archives/edgar/data/1639406/000167025424001063/document_2.pdf)
-- [Prosper’s July 2026 operating presentation](https://q3.prospershield.io/)
+The original article is retained as dated coverage of the transaction announced at that time.
 
-## More momentum
+## Prosper in the industry
 
-- [TAG appoints Cole Farmer as COO](https://www.newsfilecorp.com/release/294804)
-- [TAG appoints Isaac Curiel as construction chief](https://www.newsfilecorp.com/release/295937)
-- [TAG appoints Sanjay Swarup as CFO](https://www.newsfilecorp.com/release/296619)
-- [TAG announces solar-plus-battery expansion](https://www.newsfilecorp.com/release/297077)
+- [Cook M&A: December energy deal review](https://cookma.com/app/uploads/2026/01/PE-Deals-Energy-December-2025.pdf#page=2)
+- [Seale & Associates: annual HVACR report](https://www.sealeassociates.com/hubfs/2025%20Annual%20HVACR%20Report.pdf?hsLang=en#page=13)
+- [Origin Merchant Partners: Q4 transaction review](https://www.originmerchant.com/wp-content/uploads/2026/03/Origin-Q4-2025-MA-Review-on-HVACR.pdf)
+- [PrivSource: the Prosper Energy transaction record](https://www.privsource.com/acquisitions/deal/the-awareness-group-acquires-prosper-energy-B6SqRy)
 
-## The official record
+## People & perspective
 
-- [SEC-hosted company filing and accounting context](https://www.sec.gov/Archives/edgar/data/1386044/000147793226004328/fhld_10q.htm)
-- [TAAG company news on OTC Markets](https://www.otcmarkets.com/stock/TAAG/news)
+- [Craig Stratton, featured by Powur](https://www.sec.gov/Archives/edgar/data/1639406/000167025424001063/document_2.pdf)
+- [Inside the Prosper opportunity](https://q3.prospershield.io/)
 
-## Context
+## The original record
 
-The December announcement describes an acquisition, while the later filing describes conditional consolidation and preliminary accounting. Read both. Company releases and syndicated copies are not independent reviews; M&A listings are not customer ratings. Powur’s historical campaign exhibit is issuer material, not SEC endorsement. Prosper’s pipeline snapshot is not recognized revenue or collected cash. No investment returns, homeowner savings or independently verified customer rating are promised by this collection.
+[The June 2026 filing](https://www.sec.gov/Archives/edgar/data/1386044/000147793226004328/fhld_10q.htm). Note 4 provides the accounting context for the earlier announcement, including conditional consolidation and preliminary acquisition accounting.
+
+The dated articles and filings reflect what their publishers reported at the time. The company update above is Prosper’s current statement.
 
 
 Published at https://news.prospershield.io/guides/prosper-opportunity-source-room/

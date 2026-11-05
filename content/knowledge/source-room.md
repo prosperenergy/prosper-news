@@ -1,35 +1,31 @@
-Prosper’s opportunity brings together solar experience, homeowner relationships and the ambition to grow alongside The Awareness Group. This curated reading list puts the original sources within reach.
+The people, the milestones, and the work behind Prosper. Company updates and original coverage, together in one place.
 
-## The announcement
+## Our next chapter
 
-- [TAG’s original acquisition announcement](source:prosper-announcement)
-- [Nasdaq’s syndicated copy](source:prosper-nasdaq)
-- [Yahoo Finance’s syndicated copy](source:prosper-yahoo)
+Prosper has acquired The Awareness Group, BLUE Solar, and The Destiny Group.
 
-## Independent deal coverage
+Company statement from Craig Stratton, Founder and CEO of Prosper. Published October 13, 2026. [Company update](source:prosper-company-update).
 
-- [Cook M&A: December 2025 energy deals](source:prosper-cook)
-- [Seale & Associates: 2025 HVACR review](source:prosper-seale)
-- [Origin Merchant Partners: Q4 2025 review](source:prosper-origin)
-- [PrivSource transaction record](source:prosper-privsource)
+## The original announcement
 
-## People and perspective
+[Prosper Energy: the December 2025 announcement](source:prosper-announcement).
 
-- [Craig Stratton featured in Powur’s campaign material](source:craig-powur)
-- [Prosper’s July 2026 operating presentation](source:prosper-q-three)
+The original article is retained as dated coverage of the transaction announced at that time.
 
-## More momentum
+## Prosper in the industry
 
-- [TAG appoints Cole Farmer as COO](source:tag-cole)
-- [TAG appoints Isaac Curiel as construction chief](source:tag-isaac)
-- [TAG appoints Sanjay Swarup as CFO](source:tag-sanjay)
-- [TAG announces solar-plus-battery expansion](source:tag-storage)
+- [Cook M&A: December energy deal review](source:prosper-cook)
+- [Seale & Associates: annual HVACR report](source:prosper-seale)
+- [Origin Merchant Partners: Q4 transaction review](source:prosper-origin)
+- [PrivSource: the Prosper Energy transaction record](source:prosper-privsource)
 
-## The official record
+## People & perspective
 
-- [SEC-hosted company filing and accounting context](source:prosper-filing)
-- [TAAG company news on OTC Markets](source:tag-newsroom)
+- [Craig Stratton, featured by Powur](source:craig-powur)
+- [Inside the Prosper opportunity](source:prosper-q-three)
 
-## Context
+## The original record
 
-The December announcement describes an acquisition, while the later filing describes conditional consolidation and preliminary accounting. Read both. Company releases and syndicated copies are not independent reviews; M&A listings are not customer ratings. Powur’s historical campaign exhibit is issuer material, not SEC endorsement. Prosper’s pipeline snapshot is not recognized revenue or collected cash. No investment returns, homeowner savings or independently verified customer rating are promised by this collection.
+[The June 2026 filing](source:prosper-filing). Note 4 provides the accounting context for the earlier announcement, including conditional consolidation and preliminary acquisition accounting.
+
+The dated articles and filings reflect what their publishers reported at the time. The company update above is Prosper’s current statement.

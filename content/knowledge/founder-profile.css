@@ -1,0 +1,37 @@
+.story-hero.profile-lead h1,[data-theme=night] .story-hero.profile-lead h1{font-size:clamp(40px,4.6vw,66px);line-height:1.06}
+.profile-lead .story-standfirst{font-size:clamp(18px,1.5vw,21px);max-width:520px}
+.earlier-founder-letter{display:grid;grid-template-columns:1fr 1fr;gap:48px;padding:38px 0;border-bottom:1px solid var(--line)}
+.earlier-founder-letter h2{font-family:Fander,Geist,sans-serif;font-weight:400;font-size:clamp(26px,2.6vw,36px);line-height:1.15;letter-spacing:-.02em;margin:10px 0 0}
+.earlier-founder-letter h2 a{color:var(--ink);text-decoration:none}
+.earlier-founder-letter h2 a:hover{text-decoration:underline;text-underline-offset:5px}
+.earlier-founder-letter>div>p:not(.eyebrow){color:var(--muted);font-size:16px;line-height:1.65;margin:0 0 12px;max-width:490px}
+.earlier-founder-letter .eyebrow{font-size:10px;letter-spacing:.1em}
+.founder-profile{padding-bottom:48px;color:#141414}
+.profile-header{display:block;max-width:1080px;margin:44px 0 48px;padding-bottom:34px;border-bottom:1px solid var(--line)}
+.profile-header h1{font-family:Fander,Geist,Arial,sans-serif;font-size:clamp(38px,5.2vw,72px);line-height:1.08;letter-spacing:-.035em;max-width:900px;margin:12px 0 24px}
+.profile-dek{font-size:21px;line-height:1.6;max-width:810px;margin-bottom:24px}
+.profile-editor-note{font-size:13px;line-height:1.6;max-width:760px;margin:20px 0;color:var(--muted)}
+.profile-reading{display:grid;grid-template-columns:230px minmax(0,740px);gap:64px;align-items:start;justify-content:space-between}
+.profile-toc{position:sticky;top:24px}
+.profile-toc details{border-top:2px solid #0B5CFF;padding-top:12px}
+.profile-toc summary{cursor:pointer;min-height:48px;padding:12px 0;font-size:15px;font-weight:650}
+.profile-toc details[open] summary{background:#F4FF00;color:#141414;padding:12px}
+.profile-toc nav{display:grid;margin-top:10px;gap:0}
+.profile-toc a{display:block;padding:12px 0;min-height:48px;font-size:13px;line-height:1.5;color:#141414;text-decoration:none;border-bottom:1px solid #d6d0c8}
+.profile-toc a:hover{text-decoration:underline;text-underline-offset:4px}
+.profile-prose{min-width:0;max-width:740px;font-size:18px;line-height:1.85}
+.profile-prose h2{font-family:Geist,Arial,sans-serif;font-size:clamp(23px,2.2vw,29px);font-weight:650;line-height:1.35;letter-spacing:-.02em;margin:42px 0 20px;scroll-margin-top:24px}
+.profile-prose h3{font-family:Geist,Arial,sans-serif;font-size:21px;line-height:1.4;margin:30px 0 14px}
+.profile-prose p{margin:0 0 22px}
+.profile-prose p:has(>strong:first-child){margin-top:0}
+.profile-prose strong{font-weight:650}
+.profile-prose a{color:#0746C4;text-decoration:underline;text-underline-offset:3px}
+.profile-prose>p:last-of-type{font-size:14px;line-height:1.65;border-top:1px solid #d6d0c8;padding-top:18px}
+.profile-more{display:grid;gap:8px;border-top:2px solid #0B5CFF;padding-top:20px;margin-top:30px}
+.profile-more a{min-height:48px;display:flex;align-items:center;font-size:16px}
+.founder-profile a:focus-visible,.founder-profile-feature a:focus-visible,.profile-toc summary:focus-visible{outline:3px solid #0746C4;outline-offset:5px}
+@media(max-width:820px){.profile-reading{grid-template-columns:1fr;gap:10px}.profile-toc{position:static}.profile-toc details{max-width:740px}.profile-toc nav{grid-template-columns:1fr 1fr;column-gap:24px}.profile-prose{max-width:100%}}
+@media(max-width:800px){.story-hero.profile-lead h1,[data-theme=night] .story-hero.profile-lead h1{font-size:clamp(34px,9.2vw,52px)}.profile-lead .story-standfirst{font-size:17px;line-height:1.6}.earlier-founder-letter{grid-template-columns:1fr;gap:18px;padding:30px 0}.earlier-founder-letter h2{font-size:29px}}
+@media(max-width:600px){.profile-header{margin-top:26px;margin-bottom:28px;padding-bottom:24px}.profile-header h1{font-size:38px}.profile-dek{font-size:19px}.profile-editor-note{font-size:12px}.profile-prose{font-size:17px;line-height:1.8}.profile-prose h2{font-size:24px;margin-top:34px}.profile-toc nav{grid-template-columns:1fr}.profile-prose p{margin-bottom:20px}}
+@media(prefers-reduced-motion:reduce){.founder-profile *,.founder-profile-feature *{scroll-behavior:auto!important;transition:none!important}}
+@media print{.masthead,.edition,.prosper-network,.profile-toc,.share-row,.footer,.mobile-action,.profile-more{display:none!important}.profile-header{display:block;margin-top:0}.profile-header h1{font-size:30px}.profile-dek{font-size:16px}.profile-reading{display:block}.profile-prose{max-width:none;font-size:11pt;line-height:1.55}.profile-prose h2{font-size:16pt;break-after:avoid}.profile-prose p{orphans:3;widows:3}}
