@@ -87,5 +87,7 @@ try{const p=await browser.newPage({viewport:{width:1200,height:630},deviceScaleF
 fs.mkdirSync(path.join(root,'outputs/knowledge-base'),{recursive:true});fs.writeFileSync(path.join(root,'outputs/knowledge-base/build.json'),JSON.stringify({updated,origin,articles:articles.map(a=>({slug:a.slug,words:a.words,sources:a.used.length})),sourceRecords:sources.length,totalWords:articles.reduce((n,a)=>n+a.words,0),urls,archive:'/archive/solar-is-the-smarter-bet/'},null,2));
 console.log(`Built ${articles.length} guides, ${sources.length} source records, ${articles.reduce((n,a)=>n+a.words,0)} words, two calculators and preserved archive.`);
 
+save('assets/media/electric-bill-fees-explained.mp4',fs.readFileSync(path.join(root,'source/user-media/electric-bill-fees-explained.mp4')));
+
 // Preserve Craig's curated video section in future generated homepage builds.
 {const index=path.join(out,'index.html');let html=fs.readFileSync(index,'utf8');const section=fs.readFileSync(path.join(content,'video-section.html'),'utf8');html=html.replace('</main>',section+'</main>').replace('</head>','<link rel="stylesheet" href="/assets/prosper-video-section-20261105.css"></head>');fs.writeFileSync(index,html);save('assets/prosper-video-section-20261105.css',fs.readFileSync(path.join(content,'video-section.css')));}
