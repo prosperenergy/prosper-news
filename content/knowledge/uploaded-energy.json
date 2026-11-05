@@ -1,0 +1,68 @@
+[
+  {
+    "slug": "why-add-a-home-battery",
+    "title": "Why Add a Home Battery?",
+    "description": "A Prosper explanation of solar, storage and backup. Backup depends on your equipment, loads, weather and battery charge.",
+    "concept": false
+  },
+  {
+    "slug": "closer-look-solar-installation",
+    "title": "A Closer Look at Solar Installation",
+    "description": "A rooftop solar installation montage.",
+    "concept": false
+  },
+  {
+    "slug": "illustrated-solar-battery-home",
+    "title": "A Home with Solar and Battery Storage",
+    "description": "A short visual concept of solar and battery storage at home.",
+    "concept": true
+  },
+  {
+    "slug": "solar-panels-on-house",
+    "title": "Solar Panels on a Home",
+    "description": "A visual concept of rooftop solar.",
+    "concept": true
+  },
+  {
+    "slug": "solar-battery-at-home",
+    "title": "Solar and Battery at Home",
+    "description": "A visual concept of a home using solar and storage.",
+    "concept": true
+  },
+  {
+    "slug": "rooftop-solar-concept",
+    "title": "Rooftop Solar Concept",
+    "description": "A conceptual animation of a solar home.",
+    "concept": true
+  },
+  {
+    "slug": "home-battery-and-solar",
+    "title": "Home Battery and Solar",
+    "description": "A visual concept of a home battery with solar.",
+    "concept": true
+  },
+  {
+    "slug": "solar-roofs-battery",
+    "title": "Solar Roofs and Battery Backup",
+    "description": "A silent visual concept of a solar roof and battery.",
+    "concept": true
+  },
+  {
+    "slug": "battery-storage-rooftop",
+    "title": "Battery Storage and Rooftop Solar",
+    "description": "A visual concept of rooftop solar and home batteries.",
+    "concept": true
+  },
+  {
+    "slug": "home-with-solar",
+    "title": "A Home with Solar Panels",
+    "description": "A visual concept of a solar-powered home.",
+    "concept": true
+  },
+  {
+    "slug": "community-voices-energy-deal",
+    "title": "Community Voices on a Proposed Energy Deal",
+    "description": "A public rally clip showing opposition to a proposed NextEra acquisition. Speakers express their own views.",
+    "concept": false
+  }
+]
